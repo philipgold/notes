@@ -5,7 +5,6 @@ This host of notes, commands and snippets of code that I've been using, gathered
 I am sharing them in the hope that they would be useful you as well.
 
 # Terminal
-
 * [Basic Terminal Commands](./terminal/basic-commands-terminal.md)
 * Search and Substitute
 * Backing Up and Synchronizing
