@@ -61,9 +61,9 @@ RUN /usr/local/bin/install-plugins.sh < /usr/share/jenkins/ref/plugins.txt
 * [Dockerized jenkins master/slave setup](https://visibilityspots.org/dockerized-jenkins.html)
 
 
-### Known issues
+## Known issues
 
-##### Generate a plugins.txt from an existing jenkins instance
+### Generate a plugins.txt from an existing jenkins instance
 Use the following .groovy script
 ```groovy
 Jenkins.instance.pluginManager.plugins.each{
@@ -79,3 +79,16 @@ source: https://github.com/jenkinsci/docker/issues/336
 --driver-memory 1G --num-executors 1 --executor-memory 1G
 
 spark-submit --class il.nayatech.producer.Player --master yarn --deploy-mode cluster --num-executors 1 --driver-memory 512M --executor-memory 512M hdfs://ip-172-31-32-200.eu-west-1.compute.internal:8020/jars/cads-player-1.0-SNAPSHOT.jar
+
+### Cannot run program "mvn"
+Problem: Got exeption ``Cannot run program "mvn"`` while run a job
+
+Resolution: Install Maven 
+
+Source: 
+
+1   https://stackoverflow.com/questions/26906972/cannot-run-program-mvn-error-2-no-such-file-or-directory
+
+2   https://blog.couchbase.com/deployment-pipeline-docker-jenkins-java-couchbase/
+
+3 https://dzone.com/articles/how-to-use-the-jenkins-declarative-pipeline 
