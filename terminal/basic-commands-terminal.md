@@ -16,6 +16,8 @@
 * To create a text file with the size of folders and subfolders do `du -hd 3 * > 00_File_and_Folder_Size.txt`. The `du` is disk usage, the flag `h` means human readable and the `d 3` means with a depth of 3 (folders), and the `*` means all folders and files there.
 * Another option is to do `du -s * | sort -n` which will sort the results based on the size from smallest to largest.
 * arrow up or arrow down, brings up the last commands. Space bar to go to next page.
+* `history` - View history of commands ran in terminal
+    * `rm ~/.bash_history && history -c` - To clear the history, delete the file and clear the temp history
 
 ## Commands to manage files and folders
 * `mkdir` - makes a directory.
