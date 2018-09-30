@@ -9,7 +9,7 @@ I am sharing them in the hope that they would be useful you as well.
 * [Basic Terminal Commands](./terminal/basic-commands-terminal.md)
 * Search and Substitute
 * Backing Up and Synchronizing
-* Github Basic Commands
+* [Git Basic Commands](./terminal/git-basic-commands-terminal.md)
 * Creating a Bash Script
 * Creating a Cron Job
 * Getting Notifications
