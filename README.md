@@ -1,4 +1,4 @@
-Welcome to Philip's notes!
+Welcome to my notes!
 
 This host of notes, commands and snippets of code that I've been using, gathered over 20 years. And that might be helpful in the future.
 
