@@ -1,25 +1,5 @@
 #   Setup Hortonworks HDP
 
-##  Old Hosts
-```
-172.31.2.10     ip-172-31-2-10.eu-west-1.compute.internal   ambariserver
-172.31.21.211   ip-172-31-21-211.eu-west-1.compute.internal hdpmaster1
-172.31.24.126   ip-172-31-24-126.eu-west-1.compute.internal hdpmaster2
-172.31.20.100   ip-172-31-20-100.eu-west-1.compute.internal hdpslave1
-172.31.20.245   ip-172-31-20-245.eu-west-1.compute.internal hdpslave2
-172.31.19.150   ip-172-31-19-150.eu-west-1.compute.internal hdpslave3
-```
-
-## new Hosts 
-Prepare host list 
-```
-172.31.29.226   ip-172-31-29-226.eu-west-1.compute.internal ec2-34-246-117-189.eu-west-1.compute.amazonaws.com  dockerserver
-172.31.39.166   ip-172-31-39-166.eu-west-1.compute.internal ec2-34-253-248-33.eu-west-1.compute.amazonaws.com   ambariserver
-172.31.38.246   ip-172-31-38-246.eu-west-1.compute.internal ec2-18-202-147-134.eu-west-1.compute.amazonaws.com  hdpmaster1
-172.31.32.200   ip-172-31-32-200.eu-west-1.compute.internal ec2-18-202-150-196.eu-west-1.compute.amazonaws.com  hdpslave1
-172.31.37.3     ip-172-31-37-3.eu-west-1.compute.internal   ec2-18-202-38-196.eu-west-1.compute.amazonaws.com   hdpslave2
-```
-
 Add hosts in host file of Ambari server
 ```
 sudo vi /etc/hosts

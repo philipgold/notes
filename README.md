@@ -16,3 +16,16 @@ I am sharing them in the hope that they would be useful you as well.
 * Other
 * Access shared SMB drives
 * Working with Virtual Environments
+
+# Markdown Basics
+* [Markdown Basics](./markdown/markdown-basics.md)
+
+# Hadoop 
+* [Setup Hortonworks HDP](./hadoop/setup-hortonworks-hdp.md)
+
+# Jenkins
+* [Setup Jenkins on Docker](./jenkins/setup-jenkins-on-docker.md)
+
+# AWS 
+
+# SQL
