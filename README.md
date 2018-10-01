@@ -15,12 +15,16 @@ I am sharing them in the hope that they would be useful you as well.
 * Getting Notifications
 * Other
 * Access shared SMB drives
-* Working with Virtual Environments
 
 # Markdown Basics
 * [Markdown Basics](./markdown/markdown-basics.md)
 
 # Vim 
+TODO
+
+# Containerization and Container-Orchestration
+* [Docker Commands](./containers/docker-commands)
+* [Setup Docker on Ubuntu](/containers/setup-docker-on-ubuntu.md)
 
 
 # Hadoop 
@@ -30,5 +34,4 @@ I am sharing them in the hope that they would be useful you as well.
 * [Setup Jenkins on Docker](./jenkins/setup-jenkins-on-docker.md)
 
 # AWS 
-
-# SQL
+TODO
