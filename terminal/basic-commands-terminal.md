@@ -30,7 +30,7 @@
 * `cp -i` - copy with warning. `-i` means "ask for confirmation".
 * `mv` - move **Careful, it overwrites.**
 * `rm` - remove **Careful, it destroys.** (ie. `rm -ri` to remove recursive and with warning, for example if you want to remove a directory and its contents.)
-** 'rm -r mydir' - To remove a directory that contains other files or directories
+   * 'rm -r mydir' - To remove a directory that contains other files or directories
 * `-i` - ask for confirmation.
 * `.` - the dot means here, for example when you are copying something to your current location.
 * `locate` - finds a file.
