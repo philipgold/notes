@@ -7,7 +7,7 @@ I am sharing them in the hope that they would be useful you as well.
 # Terminal
 * [Basic Terminal Commands](./terminal/basic-commands-terminal.md)
 * Search and Substitute
-* Backing Up and Synchronizing
+* [iTerm2 cheat sheet](./terminal/iterm2.md)
 * [Git Basic Commands](./terminal/git-basic-commands-terminal.md)
 * [Vim basic commands](./terminal/vim-basic-commands.md)
 * [Creating a Bash Script](./terminal/creating-bash-script.md)
@@ -19,11 +19,10 @@ I am sharing them in the hope that they would be useful you as well.
 # Markdown Basics
 * [Markdown Basics](./markdown/markdown-basics.md)
 
-# Vim 
-TODO
+
 
 # Containerization and Container-Orchestration
-* [Docker Commands](./containers/docker-commands)
+* [Docker Commands](./containers/docker-commands.md)
 * [Setup Docker on Ubuntu](/containers/setup-docker-on-ubuntu.md)
 
 
