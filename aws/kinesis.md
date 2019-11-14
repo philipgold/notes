@@ -19,3 +19,8 @@ References:
 * [Apache Kafka VS AWS Kinesis. Amit Kumar Yadav, Posted on: 2019 Jun 10. 6 min read](https://medium.com/faun/apache-kafka-vs-apache-kinesis-57a3d585ef78)
 
 
+### Additional
+
+References: 
+* [kinesis-kafka-connector](https://github.com/awslabs/kinesis-kafka-connector)
+
