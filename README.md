@@ -34,4 +34,4 @@ TODO
 * [Setup Jenkins on Docker](./jenkins/setup-jenkins-on-docker.md)
 
 # AWS 
-TODO
+* [Amazon Kinesis](./aws/kinesis.md)
