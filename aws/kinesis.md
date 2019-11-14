@@ -16,5 +16,6 @@ https://stackoverflow.com/questions/50263992/how-does-kinesis-support-avro
 
 References:
 * [Kinesis vs. Kafka, Posted on: May 5, 2017](http://cloudurable.com/blog/kinesis-vs-kafka/index.html)
+* [Apache Kafka VS AWS Kinesis. Amit Kumar Yadav, Posted on: 2019 Jun 10. 6 min read](https://medium.com/faun/apache-kafka-vs-apache-kinesis-57a3d585ef78)
 
 
