@@ -23,4 +23,5 @@ References:
 
 References: 
 * [kinesis-kafka-connector](https://github.com/awslabs/kinesis-kafka-connector)
+* [awesome-aws#kinesis](https://github.com/donnemartin/awesome-aws#kinesis)
 
