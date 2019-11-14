@@ -5,6 +5,10 @@
 
 * [Amazon Kinesis Analytics can now discover data schemas from sample S3 objects, Posted On: Oct 4, 2017](
 https://aws.amazon.com/about-aws/whats-new/2017/10/amazon-kinesis-analytics-can-now-discover-data-schemas-from-sample-s3-objects/)
+
+### Kinesis vs. Kafka
+
+References:
 * [Kinesis vs. Kafka, Posted on: May 5, 2017](http://cloudurable.com/blog/kinesis-vs-kafka/index.html)
 
 
