@@ -139,8 +139,7 @@ Note: Amazon Kinesis Data Firehose can convert data using columnar schema: Parqu
 
 Serverless Data Lake Ingestion Architecture 
 * Kinesis Data Firehose conversion, aggregation, and persistence to you Data Lake
-![KDS](./img/kinesis-08.png)￼
-
+![KDS](./img/kinesis-08.png)
 
 References:
 [High Performance Data Streaming with Amazon Kinesis: Best Practices and Common Pitfalls, Jun 20, 2019](https://www.youtube.com/watch?v=MELPeni0p04)
