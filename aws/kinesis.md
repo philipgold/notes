@@ -171,4 +171,6 @@ References:
 References: 
 * [kinesis-kafka-connector](https://github.com/awslabs/kinesis-kafka-connector)
 * [awesome-aws#kinesis](https://github.com/donnemartin/awesome-aws#kinesis)
+* [Analyzing Data Streams in Real Time with Amazon Kinesis](https://www.slideshare.net/AmazonWebServices/bda307-analyzing-data-streams-in-real-time-with-amazon-kinesis) Posted on Apr 7, 2018 
+* [Kinesis vs-kafka-and-kafka-deep-dive](https://www.slideshare.net/uprush/kinesis-vskafkaandkafkadeepdive-53191809). Posted on Sep 25, 2015.
 
