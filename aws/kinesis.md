@@ -12,7 +12,7 @@ High volume data produced continuously from a large variety of sources at a high
 * Smart building 
 
 
-Challenges of data streaming: 
+*Challenges of data streaming:*
 * Difficult to setup
 * Hard to achieve high availability
 * Error prone and complex to manage
@@ -25,20 +25,20 @@ Challenges of data streaming:
 ### Introduction to Amazon Kinesis
 
 Kinesis tools:
-1. Kinesis Data Streams. Collect and store data streams for analytics 
-2. Kinesis Data Firehose. Load data streams into AWS data stores
-3. Kinesis Data Analytics. Analyse data stream with SQL or Java
-4. Kinesis Video Streams. Capture and store video streams for analytics
+1. *Kinesis Data Streams*. Collect and store data streams for analytics 
+2. *Kinesis Data Firehose*. Load data streams into AWS data stores
+3. *Kinesis Data Analytics*. Analyse data stream with SQL or Java
+4. *Kinesis Video Streams*. Capture and store video streams for analytics
 
 
-Benefits of Kinesis for Streaming:
+*Benefits of Kinesis for Streaming:*
 1. No infrastructure provisioning, no management 
 2. Automatically scales during re-shard operations 
 3. No stream consumptions costs when no new records to process
 4. Hight availability and secure 
 
 
-Streaming Ingestion:
+*Streaming Ingestion:*
 1. AWS Toolkits/Libraries:
     1. AWS SDK
     2. Kinesis Producer Library
@@ -54,7 +54,7 @@ Streaming Ingestion:
     3. Fluentd
 
 
-Streaming Processing:
+*Streaming Processing:*
 1. Kinesis:
     1. SQL
     2. Flink
@@ -69,7 +69,7 @@ Streaming Processing:
     4. Splunk
     5. …
 
-Create Kinesis Stream
+*Create Kinesis Stream*
 * Kinesis stream name
     * Number of shard
     * Total stream capacity 
@@ -81,19 +81,19 @@ Kinesis Data Stream: Standard consumers
 Beware poison messages 
 * Lambda checkpoints upon the success of each batch.
 * Failed batches are retried indefinitely (until the bad record expires from the shard)
-![KDS](./img/kinesis-02.png)
+![KDS](./img/kinesis-03.png)
 
 * Catch exceptions and log for online analysis
-![KDS](./img/kinesis-03.png)
+![KDS](./img/kinesis-04.png)
 
 Note: Kinesis data is base64 encoded so need to decode 
 
 Kinesis Data Streams: Enhanced fan-out consumers
 * Consumers do not pull. Messages are pushed to the consumer as they arrive.
-![KDS](./img/kinesis-04.png)
+![KDS](./img/kinesis-05.png)
 
 * Each consumer app gets dedicated 2MB per second egress, per shard.
-![KDS](./img/kinesis-05.png)
+![KDS](./img/kinesis-06.png)
 
 Create Kinesis Consumer 
 * Register consumer with the CLI
@@ -116,8 +116,7 @@ When to use enhanced fan-out consumers:
 * Low-latency requirements for data processing
     * Messages are typically delivered to a consumer in less than 70 ms
 
-
-Amazon Kinesis Data Firehose
+## Amazon Kinesis Data Firehose
 
 Persistence layer store options:
 * Amazon S3
@@ -136,19 +135,18 @@ Note: Amazon Kinesis Data Firehose can convert data using columnar schema: Parqu
 * Source Record S3 Backup
     * Raw data backup to your DataLake
     * You can filter, enrich, and convert records while maintaining the raw incoming records
-￼
-
+![KDS](./img/kinesis-07.png)
 
 Serverless Data Lake Ingestion Architecture 
 * Kinesis Data Firehose conversion, aggregation, and persistence to you Data Lake
-￼
+![KDS](./img/kinesis-08.png)￼
 
 
 References:
-High Performance Data Streaming with Amazon Kinesis: Best Practices and Common Pitfalls, Jun 20, 2019
-https://www.youtube.com/watch?v=MELPeni0p04 
+[High Performance Data Streaming with Amazon Kinesis: Best Practices and Common Pitfalls, Jun 20, 2019](https://www.youtube.com/watch?v=MELPeni0p04)
 
-### Data schemas 
+
+## Data schemas 
 
 * [Amazon Kinesis Analytics can now discover data schemas from sample S3 objects, Posted On: Oct 4, 2017](
 https://aws.amazon.com/about-aws/whats-new/2017/10/amazon-kinesis-analytics-can-now-discover-data-schemas-from-sample-s3-objects/)
@@ -159,7 +157,7 @@ Separately, writing lots of little Avro files, each with their own schema, for "
 https://stackoverflow.com/questions/50263992/how-does-kinesis-support-avro
 
 
-### Kinesis vs. Kafka
+## Kinesis vs. Kafka
 
 References:
 * [Kinesis vs. Kafka, Posted on: May 5, 2017](http://cloudurable.com/blog/kinesis-vs-kafka/index.html)
