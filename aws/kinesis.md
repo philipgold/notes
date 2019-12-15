@@ -159,6 +159,8 @@ https://stackoverflow.com/questions/50263992/how-does-kinesis-support-avro
 ## Kinesis vs. Kafka
 
 References:
+* [AWS Kinesis vs Kafka comparison: Which is right for you?, POSTED on: Dec 2, 2019 by SoftKraft](https://medium.com/softkraft/aws-kinesis-vs-kafka-comparison-which-is-right-for-you-8e81374d8166)
+* [Streaming Platforms: Apache Kafka vs. AWS Kinesis. POSTED on: January 21, 2019, by L. Peng](http://www.itcheerup.net/2019/01/kafka-vs-kinesis/)
 * [Kinesis vs. Kafka, Posted on: May 5, 2017](http://cloudurable.com/blog/kinesis-vs-kafka/index.html)
 * [Apache Kafka VS AWS Kinesis. Amit Kumar Yadav, Posted on: 2019 Jun 10. 6 min read](https://medium.com/faun/apache-kafka-vs-apache-kinesis-57a3d585ef78)
 * [GitHub - ingestion_benchmark. This project compares two ingestion technologies: Kafka and AWS Kinesis.](https://github.com/thomas-schreiter/ingestion_benchmark)
