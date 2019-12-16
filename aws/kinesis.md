@@ -173,4 +173,7 @@ References:
 * [awesome-aws#kinesis](https://github.com/donnemartin/awesome-aws#kinesis)
 * [Analyzing Data Streams in Real Time with Amazon Kinesis](https://www.slideshare.net/AmazonWebServices/bda307-analyzing-data-streams-in-real-time-with-amazon-kinesis) Posted on Apr 7, 2018 
 * [Kinesis vs-kafka-and-kafka-deep-dive](https://www.slideshare.net/uprush/kinesis-vskafkaandkafkadeepdive-53191809). Posted on Sep 25, 2015.
+* [Analyzing Data Streams in Real Time with Amazon Kinesis: PNNL's Serverless Data Lake Ingestion](https://www.youtube.com/watch?v=dNp1emFFGbU). Posted on Jun 29, 2018
+* [AWS Kinesis: Introduction and How to Upload Data](https://www.youtube.com/watch?v=k38tZ-M9o50). Posted on Jun 5, 2018
+* [How Netflix Uses Kinesis Streams to Monitor Applications and Analyze Billions of Traffic Flows](https://www.youtube.com/watch?v=8tsIqfvizpU). Posted on Aug 2, 2017
 
