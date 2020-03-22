@@ -22,9 +22,19 @@ _Challenges of data streaming:_
 
 ## Introduction to Amazon Kinesis
 
-Kinesis tools: 1. _Kinesis Data Streams_. Collect and store data streams for analytics 2. _Kinesis Data Firehose_. Load data streams into AWS data stores 3. _Kinesis Data Analytics_. Analyse data stream with SQL or Java 4. _Kinesis Video Streams_. Capture and store video streams for analytics
+Kinesis tools: 
 
-_Benefits of Kinesis for Streaming:_ 1. No infrastructure provisioning, no management 2. Automatically scales during re-shard operations 3. No stream consumptions costs when no new records to process 4. Hight availability and secure
+1. _Kinesis Data Streams_. Collect and store data streams for analytics 
+2. _Kinesis Data Firehose_. Load data streams into AWS data stores 
+3. _Kinesis Data Analytics_. Analyse data stream with SQL or Java 
+4. _Kinesis Video Streams_. Capture and store video streams for analytics
+
+_Benefits of Kinesis for Streaming:_ 
+
+1. No infrastructure provisioning, no management 
+2. Automatically scales during re-shard operations 
+3. No stream consumptions costs when no new records to process 
+4. Hight availability and secure
 
 _Streaming Ingestion:_ 1. AWS Toolkits/Libraries: 1. AWS SDK 2. Kinesis Producer Library 3. AWS Mobile SDK 4. Kinesis Agent 2. AWS Services Integrations: 1. AWS IoT 2. Amazon CloudWatch. Events and Logs 3. Amazon Database. Migration services 3. 3rd party Offerings: 1. LOG4J 2. Flume 3. Fluentd
 
