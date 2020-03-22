@@ -20,7 +20,7 @@ _Challenges of data streaming:_
 * Integration requires development
 * Expensive to maintain
 
-### Introduction to Amazon Kinesis
+## Introduction to Amazon Kinesis
 
 Kinesis tools: 1. _Kinesis Data Streams_. Collect and store data streams for analytics 2. _Kinesis Data Firehose_. Load data streams into AWS data stores 3. _Kinesis Data Analytics_. Analyse data stream with SQL or Java 4. _Kinesis Video Streams_. Capture and store video streams for analytics
 
@@ -36,13 +36,24 @@ _Create Kinesis Stream_
   * Number of shard
   * Total stream capacity 
 
-Kinesis Data Stream: Standard consumers ![KDS](../.gitbook/assets/kinesis-01.png) ![KDS](../.gitbook/assets/kinesis-02.png)
+### Kinesis Data Stream: Standard consumers
+
+ ![KDS](../.gitbook/assets/kinesis-01.png) 
+
+![KDS](../.gitbook/assets/kinesis-02.png)
 
 Beware poison messages
 
 * Lambda checkpoints upon the success of each batch.
-* Failed batches are retried indefinitely \(until the bad record expires from the shard\) ![KDS](../.gitbook/assets/kinesis-03.png)
-* Catch exceptions and log for online analysis ![KDS](../.gitbook/assets/kinesis-04.png)
+* Failed batches are retried indefinitely \(until the bad record expires from the shard\) 
+
+![KDS](../.gitbook/assets/kinesis-03.png)
+
+* Catch exceptions and log for online analysis
+
+ 
+
+![KDS](../.gitbook/assets/kinesis-04.png)
 
 Note: Kinesis data is base64 encoded so need to decode
 
