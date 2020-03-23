@@ -23,4 +23,5 @@
   * [Run Jenkins on Docker](jenkins/setup-jenkins-on-docker.md)
 * [hadoop](hadoop/README.md)
   * [setup-hortonworks-hdp](hadoop/setup-hortonworks-hdp.md)
+* [kafka](kafka.md)
 
