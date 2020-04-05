@@ -1,5 +1,42 @@
 # Basic Commands \(Terminal\)
 
+## 
+
+## Basic moves
+
+* Move back one character. `Ctrl` + `b`
+* Move forward one character. `Ctrl` + `f`
+* Delete current character. `Ctrl` + `d`
+* Delete previous character. `Backspace`
+* Undo. `Ctrl` + `-`
+
+## Moving faster
+
+* Move to the start of line. `Ctrl` + `a`
+* Move to the end of line. `Ctrl` + `e`
+* Move forward a word. `Meta` + `f` _\(a word contains alphabets and digits, no symbols\)_
+* Move backward a word. `Meta` + `b`
+* Clear the screen. `Ctrl` + `l`
+
+**What is Meta?** `Meta` is your `Alt` key, normally. For **Mac OSX user, you need to enable it yourself**. Open _Terminal &gt; Preferences &gt; Settings &gt; Keyboard_, and enable _Use option as meta key_. `Meta` key, by convention, is used for operations on word.
+
+## Cut and paste \(‘Kill and yank’ for old schoolers\)
+
+* Cut from cursor to the end of line. `Ctrl` + `k`
+* Cut from cursor to the end of word. `Meta` + `d`
+* Cut from cursor to the start of word. `Meta` + `Backspace`
+* Cut from cursor to previous whitespace. `Ctrl` + `w`
+* Paste the last cut text. `Ctrl` + `y`
+* Loop through and paste previously cut text. `Meta` + `y` \(use it after `Ctrl` + `y`\)
+* Loop through and paste the last argument of previous commands. `Meta` + `.`
+
+## Search the command history
+
+* Search as you type. `Ctrl` + `r` and type the search term; Repeat `Ctrl` + `r` to loop through results.
+* Search the last remembered search term. `Ctrl` + `r` twice.
+* End the search at current history entry. `Ctrl` + `j`
+* Cancel the search and restore original line. `Ctrl` + `g`
+
 ## Commands for Navigation:
 
 * `pwd` - \(path working directory\) shows you in what directory you are
@@ -41,21 +78,9 @@
 * `zip -r foo.zip foo` - zips foo into the foo.zip file.
 * `unzip \*.zip` - unzips multiple files.
 
-## Text editor
 
-* `nano` - Nano is one of the text editors. You can open files with `nano file/to/open` and edit them there.
 
-## Downloading files
 
-* `wget` - get something, usually from a site online \(ie. `wget http://etc.etc`\). Probably need to install the right command through "homebrew".
 
-## Navigating in the Terminal
-
-* 'ctrl+A' - moves to start of line.
-* 'ctrl+E' - moves to end of line.
-* 'ctrl+B' - moves back one character.
-* 'ctrl+F' - moves forward one character.
-* 'ctrl+U' - deletes from cursor to start of line.
-* 'ctrl+K' - deletes from cursor to end of line.
-* 'ctrl+W' - deletes from cursor to beginning of current word.
+## 
 
