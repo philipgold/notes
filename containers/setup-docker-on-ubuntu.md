@@ -44,3 +44,10 @@ To apply the new group membership, you can log out of the server and back in.
 
 ## Links
 * [How To Install and Use Docker on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-16-04)
+
+
+Install Docker
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-centos-7
+
+Install Docker Compose
+https://docs.docker.com/compose/install/#install-compose

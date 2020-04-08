@@ -85,10 +85,21 @@ Problem: Got exeption ``Cannot run program "mvn"`` while run a job
 
 Resolution: Install Maven 
 
-Source: 
+## References
 
 1   https://stackoverflow.com/questions/26906972/cannot-run-program-mvn-error-2-no-such-file-or-directory
 
 2   https://blog.couchbase.com/deployment-pipeline-docker-jenkins-java-couchbase/
 
 3 https://dzone.com/articles/how-to-use-the-jenkins-declarative-pipeline 
+
+docker run --restart unless-stopped -u root -d -p 8080:8080 -p 50000:50000 -v jenkins-data:/var/jenkins_home -v /var/run/docker.sock:/var/run/docker.sock jenkins/jenkins:lts
+
+
+
+An end-to-end tutorial to Continuous Integration and Continuous Delivery by Dockerize Jenkins Pipeline 
+https://medium.com/@hakdogan/an-end-to-end-tutorial-to-continuous-integration-and-continuous-delivery-by-dockerize-jenkins-f5b9b45b610d
+
+
+docker-compose: command not found on jenkins
+https://stackoverflow.com/questions/48481322/docker-compose-command-not-found-on-jenkins
