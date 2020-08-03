@@ -46,36 +46,28 @@
 
     - AWS uses values from the *request context* to check for policies that apply to the request. It then uses the policies to determine whether to allow or deny the request.
 
-    - Policies types can be categorized as 
-
-      permissions policies
-
-       or 
-
-      permissions boundaries
-
-      .
+    - Policies types can be categorized as permissions policies or permissions boundaries.
 
       - *Permissions policies* define the permissions for the object to which they’re attached. These include identity-based policies, resource-based policies, and ACLs.
-      - *Permissions boundary* is an advanced feature that allows you to use policies to limit the maximum permissions that a principal can have.
-
-    - To provide your users with permissions to access the AWS resources in their own account, you need **identity-based policies**.
-
-    - **Resource-based policies** are for granting cross-account access.
-
-    - Evaluation logic rules for policies:
-
+- *Permissions boundary* is an advanced feature that allows you to use policies to limit the maximum permissions that a principal can have.
+      
+- To provide your users with permissions to access the AWS resources in their own account, you need **identity-based policies**.
+    
+- **Resource-based policies** are for granting cross-account access.
+    
+- Evaluation logic rules for policies:
+    
       - By default, **all requests are denied**.
-      - An *explicit allow* in a permissions policy overrides this default.
+  - An *explicit allow* in a permissions policy overrides this default.
       - A *permissions boundary* overrides the allow. If there is a permissions boundary that applies, that boundary must allow the request. Otherwise, it is implicitly denied.
-      - An explicit deny in any policy overrides any allows.
-
-  - #### **Actions or Operations**
-
-    - Operations are defined by a service, and include things that you can do to a resource, such as viewing, creating, editing, and deleting that resource.
-
+  - An explicit deny in any policy overrides any allows.
+    
+- #### **Actions or Operations**
+  
+  - Operations are defined by a service, and include things that you can do to a resource, such as viewing, creating, editing, and deleting that resource.
+  
   - #### **Resource**
-
+  
     - An object that exists within a service. The service defines a set of actions that can be performed on each resource.
 
 - ### **Users**
@@ -91,7 +83,7 @@
 
     - If the users in your organization already have a way to be authenticated, you can federate those user identities into AWS.
 
-![AWS Training IAM 2](./img/AWS-Training-IAM-2.png)
+![AWS Training IAM 2](../img/AWS-Training-IAM-2.png)
 
 - - #### **IAM Groups**
 
@@ -118,7 +110,7 @@
 
   - Users or groups can have multiple policies attached to them that grant different permissions.
 
-![AWS Training AWS IAM 3](./img/AWS-Training-AWS-IAM-3.png)
+![AWS Training AWS IAM 3](../img/AWS-Training-AWS-IAM-3.png)
 
 - ### **Policies**
 
