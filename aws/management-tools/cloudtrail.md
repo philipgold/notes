@@ -8,6 +8,8 @@
 
 - View events in **Event History**, where you can view, search, and download the past 90 days of activity in your AWS account.
 
+  - The defautl UI only shows "Create", "Modify" or "Delete" events.
+
 - ### **Trails**
 
   - Create a **CloudTrail trail** to archive, analyze, and respond to changes in your AWS resources.
@@ -48,7 +50,7 @@
 - ### **Monitoring**
 
   - Use **CloudWatch Logs** to monitor log data. CloudTrail events that are sent to CloudWatch Logs can trigger alarms according to the metric filters you define. 
-  - To determine whether a log file was modified, deleted, or unchanged after  CloudTrail delivered it, you can use CloudTrail log file integrity  validation.
+  - To determine whether a log file was modified, deleted, or unchanged after  CloudTrail delivered it, you can use CloudTrail log file integrity validation.
 
 - ### **Price**
 
@@ -66,7 +68,23 @@
 | Event selectors                   | 5 per trail                               | This limit cannot be increased.                              |
 | Data resources in event selectors | 250 across all event selectors in a trail | The total number of data resources cannot exceed 250 across all event  selectors in a trail. The limit of number of resources on an individual  event selector is configurable up to 250. This upper limit is allowed  only if the total number of data resources does not exceed 250 across  all event selectors.This limit cannot be increased. |
 
-## 
+## Solution Architectures
+
+### Delivery to S3
+
+![image-20200804012320592](../img/image-20200804012320592.png)
+
+
+
+### Multi Account, Multi Region Logging
+
+![image-20200804012631099](../img/image-20200804012631099.png)
+
+### Alert for API calls
+
+![image-20200804012718233](../img/image-20200804012718233.png)
+
+
 
 **Augmenting Security & Improving Operational Health with AWS CloudTrail:**
 
