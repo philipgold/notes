@@ -115,5 +115,3 @@ https://medium.com/@hakdogan/an-end-to-end-tutorial-to-continuous-integration-an
 
 docker-compose: command not found on jenkins
 https://stackoverflow.com/questions/48481322/docker-compose-command-not-found-on-jenkins
-=======
->>>>>>> e64f836c1d70d1581425c7798a559672ec2dc7f4

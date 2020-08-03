@@ -5,9 +5,8 @@
 * Google Cloud Public Datasets\([https://cloud.google.com/public-datasets/](https://cloud.google.com/public-datasets/)\)
 * [kaggle Datasets](https://www.kaggle.com/datasets)
 
-### Coronavirus Datasets
+## Coronavirus Datasets
 
 * [Novel Corona Virus \(COVID-19\) epidemiological data since 22 January 2020.](https://data.humdata.org/dataset/novel-coronavirus-2019-ncov-cases)
-
-
+* GitHub [2019 Novel Coronavirus COVID-19 (2019-nCoV) Data Repository by Johns Hopkins CSSE](https://github.com/CSSEGISandData/COVID-19)
 
