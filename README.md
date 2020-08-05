@@ -8,11 +8,11 @@ This host of notes, commands and snippets of code that I've been using, gathered
 
 I am sharing them in the hope that they would be useful you as well.
 
-### Terminal
 
-### Markdown Basics
 
-* [Markdown Basics](markdown/markdown-basics.md)
+* [Terminal](/terminal/README.md)
+
+* [Markdown Basics](markdown/README.md)
 
 ## Containerization and Container-Orchestration
 
