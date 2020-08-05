@@ -39,6 +39,6 @@ I am sharing them in the hope that they would be useful you as well.
 
 ### AWS
 
-* TEST
+* TEST MESSAGE again 
 * [Amazon Kinesis](aws/kinesis.md)
 
