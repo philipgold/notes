@@ -25,22 +25,9 @@ I am sharing them in the hope that they would be useful you as well.
 
 * [Markdown Basics](./markdown/markdown-basics.md)
 
-<<<<<<< HEAD
-
 
 # Containerization and Container-Orchestration
 * [Docker Commands](./containers/docker-commands.md)
-=======
-## Vim
-
-TODO
-
-## Containerization and Container-Orchestration
-
-* [Docker Commands](./containers/docker-commands)
->>>>>>> e64f836c1d70d1581425c7798a559672ec2dc7f4
-* [Setup Docker on Ubuntu](/containers/setup-docker-on-ubuntu.md)
-
 ## Hadoop
 
 * [Setup Hortonworks HDP](./hadoop/setup-hortonworks-hdp.md)
