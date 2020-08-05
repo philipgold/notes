@@ -1,4 +1,4 @@
-# eS3 Transfer Acceleration vs Direct Connect vs VPN vs Snowball vs Snowmobile
+# S3 Transfer Acceleration vs Direct Connect vs VPN vs Snowball vs Snowmobile
 
 ![s3 transfer acceleration](../img/s31.png)
 
