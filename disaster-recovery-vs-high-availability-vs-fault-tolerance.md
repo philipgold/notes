@@ -1,6 +1,6 @@
 # Disaster Recovery vs. High Availability vs. Fault Tolerance
 
-## High Availability
+# High Availability
 
 [*High availability*](https://en.wikipedia.org/wiki/High_availability) *is a characteristic of a system, which aims to ensure an agreed level of operational performance, usually uptime, for a higher than normal period.*
 
@@ -24,7 +24,7 @@ Besides significant financial losses, downtime may have other serious implicatio
 
 While having redundancy components is an ultimate condition for ensuring high availability, just having these components in place is not enough for the system to be considered highly available. A highly available system is the one that includes both redundant components and mechanisms for failure detection, as well as workload redirection. These can either be a load balancer or a hypervisor.
 
-## Fault Tolerance 
+# Fault Tolerance 
 
 [*Fault tolerance*](https://en.wikipedia.org/wiki/Fault_tolerance) *is the property that enables a system to continue operating properly in the event of the failure of some (one or more faults within) of its components.*
 
@@ -44,7 +44,7 @@ Fault tolerant design is crucial to implement if your IT system cannot tolerate 
 
 A fault tolerant system is a system that includes two tightly coupled components that mirror each other, providing redundancy. This way, if a primary component goes down, the secondary one is always set and immediately ready to take over.
 
-## Disaster Recovery
+# Disaster Recovery
 
 [*Disaster recovery* ](https://en.wikipedia.org/wiki/Disaster_recovery)*involves a set of policies, tools and procedures to enable the recovery or continuation of vital technology infrastructure and systems following a natural or human-induced disaster.*
 
