@@ -10,7 +10,9 @@ HA is a concept that only manifests itself through technology. The goal of an HA
 
 The objective of the “five nines” is achieved through the elimination of a single point of failure in a system. For this, you can implement redundancy and failover components that are configured to handle the workloads without human intervention, in case a primary component fails.
 
-In virtualization, high availability can be designed with the help of clustering technologies. For example, when one of your hosts or virtual machines (VM) within a cluster fails, another VM takes over and maintains the proper performance of the system.
+In virtualization, high availability can be designed with the help of clustering technologies. For example, when one of your hosts or virtual machines (VM) within a cluster fails, another VM takes over and mainta
+
+ins the proper performance of the system.
 
 ## When is high availability important?
 

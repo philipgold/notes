@@ -1,8 +1,8 @@
 # eS3 Transfer Acceleration vs Direct Connect vs VPN vs Snowball vs Snowmobile
 
-![s3 transfer acceleration](./img/s31.png)
+![s3 transfer acceleration](../img/s31.png)
 
-![s3 transfer acceleration](./img/s32.png)
+![s3 transfer acceleration](../img/s32.png)
 
  
 
@@ -12,7 +12,7 @@
 - There is no guarantee that you will experience increased transfer speeds. If S3 Transfer Acceleration is not likely to be faster than a regular S3 transfer of the same object to the same destination AWS Region, AWS will not charge for the use of S3 TA for that transfer.
 - This is not the best transfer service to use if transfer disruption is not tolerable.
 - S3 TA provides the same security benefits as regular transfers to Amazon S3. This service also supports multi-part upload.
-- **S3 TA vs AWS Snow\***
+- ***S3 TA vs AWS Snow***
   - The AWS Snow* Migration Services are ideal for moving large batches of data at once. In general, if it will take more than a week to transfer over the Internet, or there are recurring transfer jobs and there is more than 25Mbps of available bandwidth, S3 Transfer Acceleration is a good option.
   - Another option is to use AWS Snowball or Snowmobile to perform initial heavy lift moves and then transfer incremental ongoing changes with S3 Transfer Acceleration.
 - **S3 TA vs Direct Connect**
