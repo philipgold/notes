@@ -78,7 +78,7 @@ Our **AWS cheat sheets** were created to give you a bird’s eye view of the imp
 ### **[AWS Networking & Content Delivery](https://tutorialsdojo.com/aws-cheat-sheets-networking-and-content-delivery/)**
 
 - [Amazon API Gateway](https://tutorialsdojo.com/amazon-api-gateway/)
-- [Amazon CloudFront](https://tutorialsdojo.com/amazon-cloudfront/)
+- [Amazon CloudFront](./networking-and-content-delivery/cloudfront.md)
 - [Amazon Route 53](https://tutorialsdojo.com/amazon-route-53/)
 - [Amazon VPC](https://tutorialsdojo.com/amazon-vpc/)
 - [AWS Direct Connect](https://tutorialsdojo.com/aws-direct-connect/)
@@ -213,10 +213,10 @@ Our **AWS cheat sheets** were created to give you a bird’s eye view of the imp
 - [Latency Routing vs Geoproximity Routing vs Geolocation Routing](https://tutorialsdojo.com/latency-routing-vs-geoproximity-routing-vs-geolocation-routing/)
 - [Redis Append – Only files vs Redis Replication](https://tutorialsdojo.com/redis-append-only-files-vs-redis-replication/)
 - [Redis Cluster Mode Enabled vs Disabled vs Memcached](https://tutorialsdojo.com/redis-cluster-mode-enabled-vs-disabled-vs-memcached/)
-- [S3 Pre-Signed URLS vs CloudFront Signed URLS vs Origin Access Identity](https://tutorialsdojo.com/s3-pre-signed-urls-vs-cloudfront-signed-urls-vs-origin-access-identity-oai/)
+- [S3 Pre-Signed URLS vs CloudFront Signed URLS vs Origin Access Identity](./comparison-of-aws-services/s3-pre-signed-urls-vs-cloudfront-signed-urls-vs-origin-access-identity-oai.md)
 - [S3 Standard vs S3 Standard-IA vs S3OneZone-IA](https://tutorialsdojo.com/s3-standard-vs-s3-standard-ia-vs-s3-one-zone-ia/)
 - [S3 Transfer Acceleration vs Direct Connect vs VPN vs Snowball vs Snowmobile](https://tutorialsdojo.com/s3-transfer-acceleration-vs-direct-connect-vs-vpn-vs-snowball-vs-snowmobile/)
 - [Security Group vs NACL](https://tutorialsdojo.com/security-group-vs-nacl/)
 - [Service Control Policies vs IAM Policies](https://tutorialsdojo.com/service-control-policies-scp-vs-iam-policies/)
-- [SNI Custom SSL vs Dedicated IP Custom SSL](https://tutorialsdojo.com/sni-custom-ssl-vs-dedicated-ip-custom-ssl/)
+- [SNI Custom SSL vs Dedicated IP Custom SSL](./comparison-of-aws-services/sni-custom-ssl-vs-dedicated-ip-custom-ssl.md)
 - [Step Scaling vs Simple Scaling Policies in Amazon EC2](https://tutorialsdojo.com/step-scaling-vs-simple-scaling-policies-in-amazon-ec2/)
