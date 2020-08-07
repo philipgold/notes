@@ -147,14 +147,14 @@ Our **AWS cheat sheets** were created to give you a bird’s eye view of the imp
 - [Amazon CloudSearch](https://tutorialsdojo.com/amazon-cloudsearch/)
 - [Amazon Elasticsearch (ES)](https://tutorialsdojo.com/amazon-elasticsearch-amazon-es/)
 - [Amazon EMR](https://tutorialsdojo.com/amazon-emr/)
-- [Amazon Kinesis](https://tutorialsdojo.com/amazon-kinesis/)
+- [Amazon Kinesis](./analytics-services/amazon-kinesis.md)
 - [Amazon QuickSight](https://tutorialsdojo.com/amazon-quicksight/)
 - [Amazon Redshift](https://tutorialsdojo.com/amazon-redshift/)
 - [AWS Data Pipeline](https://tutorialsdojo.com/aws-data-pipeline/)
 
 **Other Analytics-related Notes:**
 
-- [Kinesis Scaling Resharding And Parallel Processing](https://tutorialsdojo.com/kinesis-scaling-resharding-and-parallel-processing/)
+- [Kinesis Scaling Resharding And Parallel Processing](./analytics-services/kinesis-scaling-resharding-and-parallel-processing.md/)
 
 ### [**AWS Billing and Cost Management**](https://tutorialsdojo.com/aws-billing-and-cost-management/)
 
