@@ -55,8 +55,8 @@ Our **AWS cheat sheets** were created to give you a bird’s eye view of the imp
 
 - [Amazon Aurora](https://tutorialsdojo.com/amazon-aurora/)
 - [Amazon DynamoDB](https://tutorialsdojo.com/amazon-dynamodb/)
-- [Amazon ElastiCache](https://tutorialsdojo.com/amazon-elasticache/)
-- [Amazon RDS](https://tutorialsdojo.com/amazon-relational-database-service-amazon-rds/)
+- [Amazon ElastiCache](./database-services/elasticache.md)
+- [Amazon RDS](./database-services/relational-database-service-amazon-rds.md)
 - [Amazon Redshift](https://tutorialsdojo.com/amazon-redshift/)
 
 **Other Database-related Notes:**
@@ -195,7 +195,7 @@ Our **AWS cheat sheets** were created to give you a bird’s eye view of the imp
 ### [**Comparison of AWS Services**](https://tutorialsdojo.com/comparison-of-aws-services/)
 
 - [Amazon Cognito User Pools vs Identity Pools](https://tutorialsdojo.com/amazon-cognito-user-pools-and-identity-pools-explained/)
-- [Amazon RDS vs DynamoDB](https://tutorialsdojo.com/amazon-rds-vs-dynamodb/)
+- [Amazon RDS vs DynamoDB](./comparison-of-aws-services/rds-vs-dynamodb.md)
 - [Amazon S3 vs EBS vs EFS](https://tutorialsdojo.com/amazon-s3-vs-ebs-vs-efs/)
 - [Amazon S3 vs Glacier](https://tutorialsdojo.com/amazon-s3-vs-glacier/)
 - [Amazon SWF vs AWS Step Function vs Amazon SQS](https://tutorialsdojo.com/amazon-simple-workflow-swf-vs-aws-step-functions-vs-amazon-sqs/)
