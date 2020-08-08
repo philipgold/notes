@@ -54,17 +54,17 @@ Our **AWS cheat sheets** were created to give you a bird’s eye view of the imp
 ### [**AWS Database Services**](https://tutorialsdojo.com/aws-cheat-sheets-database-services/)
 
 - [Amazon Aurora](https://tutorialsdojo.com/amazon-aurora/)
-- [Amazon DynamoDB](https://tutorialsdojo.com/amazon-dynamodb/)
+- [Amazon DynamoDB](./database-services/dynamodb.md)
 - [Amazon ElastiCache](./database-services/elasticache.md)
 - [Amazon RDS](./database-services/relational-database-service-amazon-rds.md)
 - [Amazon Redshift](https://tutorialsdojo.com/amazon-redshift/)
 
 **Other Database-related Notes:**
 
-- [DynamoDB Scan vs Query](https://tutorialsdojo.com/dynamodb-scan-vs-query/)
-- [Calculating Required RCU And WCU For Your DynamoDB Table](https://tutorialsdojo.com/calculating-the-required-read-and-write-capacity-unit-for-your-dynamodb-table/)
-- [Global Secondary Index vs Local Secondary Index](https://tutorialsdojo.com/global-secondary-index-vs-local-secondary-index/)
-- [Lambda Integration With Amazon DynamoDB Streams](https://tutorialsdojo.com/aws-lambda-integration-with-amazon-dynamodb-streams/)
+- [DynamoDB Scan vs Query](./database-services/dynamodb-scan-vs-query.md)
+- [Calculating Required RCU And WCU For Your DynamoDB Table](./database-services/calculating-the-required-read-and-write-capacity-unit-for-your-dynamodb-table.md)
+- [Global Secondary Index vs Local Secondary Index](./database-services/global-secondary-index-vs-local-secondary-index.md)
+- [Lambda Integration With Amazon DynamoDB Streams](./database-services/lambda-integration-with-amazon-dynamodb-streams.md)
 
 ### **[AWS Migration Services](https://tutorialsdojo.com/aws-cheat-sheets-migration-services/)**
 
