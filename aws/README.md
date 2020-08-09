@@ -107,14 +107,14 @@ Our **AWS cheat sheets** were created to give you a bird’s eye view of the imp
 - [AWS Directory Service](https://tutorialsdojo.com/aws-directory-service/)
 - [AWS Fargate](https://tutorialsdojo.com/aws-fargate/)
 - [AWS Firewall Manager](https://tutorialsdojo.com/aws-firewall-manager/)
-- [AWS Identity & Access Management (IAM)](https://tutorialsdojo.com/aws-identity-and-access-management-iam/)
+- [AWS Identity & Access Management (IAM)](./security-identity-services/identity-and-access-management-iam.md)
 - [AWS Key Management Service](https://tutorialsdojo.com/aws-key-management-service-aws-kms/)
 - [AWS Organizations](./security-identity-services/organizations.md)
 - [AWS Resource Access Manager (RAM)](https://tutorialsdojo.com/aws-resource-access-manager/)
 - [AWS Secrets Manager](https://tutorialsdojo.com/aws-secrets-manager/)
 - [AWS Security Hub](https://tutorialsdojo.com/aws-security-hub/)
-- [AWS Shield](https://tutorialsdojo.com/aws-shield/)
-- [AWS WAF](https://tutorialsdojo.com/aws-waf/)
+- [AWS Shield](./security-identity-services/shield.md)
+- [AWS WAF](../security-identity-services/waf.md)
 
 **Other Security-related Notes:**
 
@@ -196,7 +196,7 @@ Our **AWS cheat sheets** were created to give you a bird’s eye view of the imp
 
 - [Amazon Cognito User Pools vs Identity Pools](https://tutorialsdojo.com/amazon-cognito-user-pools-and-identity-pools-explained/)
 - [Amazon RDS vs DynamoDB](./comparison-of-aws-services/rds-vs-dynamodb.md)
-- [Amazon S3 vs EBS vs EFS](https://tutorialsdojo.com/amazon-s3-vs-ebs-vs-efs/)
+- [Amazon S3 vs EBS vs EFS](./comparison-of-aws-services/s3-vs-ebs-vs-efs.md)
 - [Amazon S3 vs Glacier](https://tutorialsdojo.com/amazon-s3-vs-glacier/)
 - [Amazon SWF vs AWS Step Function vs Amazon SQS](https://tutorialsdojo.com/amazon-simple-workflow-swf-vs-aws-step-functions-vs-amazon-sqs/)
 - [Application Load Balancer vs Network Load Balancer vs Classic Load Balancer](https://tutorialsdojo.com/application-load-balancer-vs-network-load-balancer-vs-classic-load-balancer/)
