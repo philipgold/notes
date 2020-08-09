@@ -80,7 +80,7 @@ Our **AWS cheat sheets** were created to give you a bird’s eye view of the imp
 - [Amazon API Gateway](https://tutorialsdojo.com/amazon-api-gateway/)
 - [Amazon CloudFront](./networking-and-content-delivery/cloudfront.md)
 - [Amazon Route 53](https://tutorialsdojo.com/amazon-route-53/)
-- [Amazon VPC](https://tutorialsdojo.com/amazon-vpc/)
+- [Amazon VPC](./networking-and-content-delivery/vpc.md)
 - [AWS Direct Connect](https://tutorialsdojo.com/aws-direct-connect/)
 - [AWS Elastic Load Balancing (ELB)](https://tutorialsdojo.com/aws-elastic-load-balancing-elb/)
 - [AWS Global Accelerator](https://tutorialsdojo.com/aws-global-accelerator/)
@@ -91,7 +91,7 @@ Our **AWS cheat sheets** were created to give you a bird’s eye view of the imp
 - [AWS Global Accelerator vs Amazon CloudFront](https://tutorialsdojo.com/aws-global-accelerator-vs-amazon-cloudfront/)
 - [How to Invalidate API Gateway Cache](https://tutorialsdojo.com/how-to-invalidate-api-gateway-cache/)
 - [Increasing MTU for Your EC2 Instance](https://tutorialsdojo.com/increasing-mtu-for-your-ec2-instance/)
-- [VPC Peering](https://tutorialsdojo.com/vpc-peering/)
+- [VPC Peering](./networking-and-content-delivery/vpc-peering.md)
 - [Longest Prefix Match: Understanding Advanced Concepts in VPC Peering](https://tutorialsdojo.com/longest-prefix-match-understanding-advanced-concepts-in-vpc-peering/)
 - [Resolve Route 53 Private Hosted Zones from an On-premises Network](https://tutorialsdojo.com/resolve-route-53-private-hosted-zones-from-an-on-premises-network/)
 

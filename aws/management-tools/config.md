@@ -4,7 +4,7 @@
 
 ### **Features**
 
-- Multi-account, multi-region data aggregation gives you an enterprise-wide view of your ***Config rule\*** compliance status, and you can associate your AWS organization to quickly add your accounts.
+- Multi-account, multi-region data aggregation gives you an enterprise-wide view of your ***Config rule*** compliance status, and you can associate your AWS organization to quickly add your accounts.
 - Provides you pre-built rules to evaluate your AWS resource configurations and configuration changes, or create your own custom rules in AWS Lambda that define your internal best practices and guidelines for resource configurations.
 - **Config records** details of changes to your AWS resources to provide you with a  configuration history, and automatically deliver it to an S3 bucket you  specify.
 - Receive a notification whenever a resource is created, modified, or deleted.
