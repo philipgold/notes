@@ -129,7 +129,7 @@ Our **AWS cheat sheets** were created to give you a bird’s eye view of the imp
 
 ### **[AWS Management Tools](https://tutorialsdojo.com/aws-cheat-sheets-management-tools/)**
 
-- [Amazon CloudWatch](https://tutorialsdojo.com/amazon-cloudwatch/)
+- [Amazon CloudWatch](./management-tools/cloudwatch.md)
 - [AWS Auto Scaling](https://tutorialsdojo.com/aws-auto-scaling/)
 - [AWS CloudFormation](https://tutorialsdojo.com/aws-cloudformation/)
 - [AWS CloudTrail](https://tutorialsdojo.com/aws-cloudtrail/)
