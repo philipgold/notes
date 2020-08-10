@@ -144,7 +144,7 @@ Our **AWS cheat sheets** were created to give you a bird’s eye view of the imp
 ### **[AWS Analytics Services](https://tutorialsdojo.com/aws-cheat-sheets-analytics-services/)**
 
 - [Amazon Athena](https://tutorialsdojo.com/amazon-athena/)
-- [Amazon CloudSearch](https://tutorialsdojo.com/amazon-cloudsearch/)
+- [Amazon CloudSearch](./analytics-services/cloudsearch.md)
 - [Amazon Elasticsearch (ES)](https://tutorialsdojo.com/amazon-elasticsearch-amazon-es/)
 - [Amazon EMR](https://tutorialsdojo.com/amazon-emr/)
 - [Amazon Kinesis](./analytics-services/amazon-kinesis.md)
@@ -185,7 +185,7 @@ Our **AWS cheat sheets** were created to give you a bird’s eye view of the imp
 
 ### **[AWS Machine Learning And AI](https://tutorialsdojo.com/aws-cheat-sheets-aws-machine-learning-and-ai/)**
 
-- [Amazon Rekognition](https://tutorialsdojo.com/amazon-rekognition/)
+- [Amazon Rekognition](./machine-learning-and-ai/rekognition.md)
 
 ### [**Other AWS Services**](https://tutorialsdojo.com/aws-cheat-sheets-other-aws-services/)
 
