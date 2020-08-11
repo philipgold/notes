@@ -204,7 +204,7 @@ Our **AWS cheat sheets** were created to give you a bird’s eye view of the imp
 - [AWS Global Accelerator vs Amazon CloudFront](https://tutorialsdojo.com/aws-global-accelerator-vs-amazon-cloudfront/)
 - [AWS Secrets Manager vs Systems Manager Parameter Store](https://tutorialsdojo.com/aws-secrets-manager-vs-systems-manager-parameter-store/)
 - [Backup and Restore vs Pilot Light vs Warm Standby vs Multi – site](https://tutorialsdojo.com/backup-and-restore-vs-pilot-light-vs-warm-standby-vs-multi-site/)
-- [CloudWatch Agent vs SSM Agent vs Custom Daemon Scripts](https://tutorialsdojo.com/cloudwatch-agent-vs-ssm-agent-vs-custom-daemon-scripts/)
+- [CloudWatch Agent vs SSM Agent vs Custom Daemon Scripts](./comparison-of-aws-services/cloudwatch-agent-vs-ssm-agent-vs-custom-daemon-scripts.md)
 - [EBS-SSD vs HDD](https://tutorialsdojo.com/ebs-ssd-vs-hdd/)
 - [EC2 Container Services ECS vs Lambda](https://tutorialsdojo.com/ec2-container-service-ecs-vs-lambda/)
 - [EC2 Instance Health Check vs ELB Health Check vs Auto Scaling and Custom Health Check](https://tutorialsdojo.com/ec2-instance-health-check-vs-elb-health-check-vs-auto-scaling-and-custom-health-check/)
