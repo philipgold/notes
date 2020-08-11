@@ -103,7 +103,7 @@ Our **AWS cheat sheets** were created to give you a bird’s eye view of the imp
 - [Amazon Inspector](https://tutorialsdojo.com/amazon-inspector/)
 - [Amazon Macie](https://tutorialsdojo.com/amazon-macie/)
 - [AWS Artifact](https://tutorialsdojo.com/aws-artifact/)
-- [AWS Certificate Manager](https://tutorialsdojo.com/aws-certificate-manager/)
+- [AWS Certificate Manager](./security-identity-services/certificate-manager.md)
 - [AWS Directory Service](https://tutorialsdojo.com/aws-directory-service/)
 - [AWS Fargate](https://tutorialsdojo.com/aws-fargate/)
 - [AWS Firewall Manager](https://tutorialsdojo.com/aws-firewall-manager/)
