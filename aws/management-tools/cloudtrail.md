@@ -94,4 +94,4 @@ https://youtu.be/YWzmoDzzg4U
 
 **AWS CloudTrail-related Cheat Sheets:**
 
-- [AWS CloudTrail vs Amazon CloudWatch](https://tutorialsdojo.com/aws-cloudtrail-vs-amazon-cloudwatch/)
+- [AWS CloudTrail vs Amazon CloudWatch](../comparison-of-aws-services/cloudtrail-vs-amazon-cloudwatch.md)

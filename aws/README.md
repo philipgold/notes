@@ -200,7 +200,7 @@ Our **AWS cheat sheets** were created to give you a bird’s eye view of the imp
 - [Amazon S3 vs Glacier](https://tutorialsdojo.com/amazon-s3-vs-glacier/)
 - [Amazon SWF vs AWS Step Function vs Amazon SQS](https://tutorialsdojo.com/amazon-simple-workflow-swf-vs-aws-step-functions-vs-amazon-sqs/)
 - [Application Load Balancer vs Network Load Balancer vs Classic Load Balancer](https://tutorialsdojo.com/application-load-balancer-vs-network-load-balancer-vs-classic-load-balancer/)
-- [AWS CloudTrail vs Amazon CloudWatch](https://tutorialsdojo.com/aws-cloudtrail-vs-amazon-cloudwatch/)
+- [AWS CloudTrail vs Amazon CloudWatch](./comparison-of-aws-services/cloudtrail-vs-amazon-cloudwatch.md)
 - [AWS Global Accelerator vs Amazon CloudFront](https://tutorialsdojo.com/aws-global-accelerator-vs-amazon-cloudfront/)
 - [AWS Secrets Manager vs Systems Manager Parameter Store](https://tutorialsdojo.com/aws-secrets-manager-vs-systems-manager-parameter-store/)
 - [Backup and Restore vs Pilot Light vs Warm Standby vs Multi – site](https://tutorialsdojo.com/backup-and-restore-vs-pilot-light-vs-warm-standby-vs-multi-site/)
