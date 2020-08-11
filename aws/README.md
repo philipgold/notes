@@ -38,7 +38,7 @@ Our **AWS cheat sheets** were created to give you a bird’s eye view of the imp
 ### [**AWS Storage Services**](https://tutorialsdojo.com/aws-cheat-sheets-storage-services/)
 
 - [Amazon EBS](https://tutorialsdojo.com/amazon-ebs/)
-- [Amazon EFS](https://tutorialsdojo.com/amazon-efs/)
+- [Amazon EFS](./storage-services/efs.md)
 - [Amazon FSx](https://tutorialsdojo.com/amazon-fsx/)
 - [Amazon S3](https://tutorialsdojo.com/amazon-s3/)
 - [Amazon S3 Glacier](https://tutorialsdojo.com/amazon-glacier/)
@@ -68,10 +68,10 @@ Our **AWS cheat sheets** were created to give you a bird’s eye view of the imp
 
 ### **[AWS Migration Services](https://tutorialsdojo.com/aws-cheat-sheets-migration-services/)**
 
-- [AWS Database Migration Service](https://tutorialsdojo.com/aws-database-migration-service/)
+- [AWS Database Migration Service](./migration-services/database-migration-service.md)
 - [AWS DataSync](https://tutorialsdojo.com/aws-datasync/)
 - [AWS Migration Strategies – The 6 R‘](https://tutorialsdojo.com/aws-migration-strategies-the-6-rs/)s
-- [AWS Server Migration Service (SMS)](https://tutorialsdojo.com/aws-server-migration-service-sms/)
+- [AWS Server Migration Service (SMS)](./migration-services/migration-service-sms.md)
 - [AWS Snowball Edge](https://tutorialsdojo.com/aws-snowball-edge/)
 - [AWS Snowmobile](https://tutorialsdojo.com/aws-snowmobile/)
 
@@ -131,7 +131,7 @@ Our **AWS cheat sheets** were created to give you a bird’s eye view of the imp
 
 - [Amazon CloudWatch](./management-tools/cloudwatch.md)
 - [AWS Auto Scaling](https://tutorialsdojo.com/aws-auto-scaling/)
-- [AWS CloudFormation](https://tutorialsdojo.com/aws-cloudformation/)
+- [AWS CloudFormation](./management-tools/cloudformation.md)
 - [AWS CloudTrail](https://tutorialsdojo.com/aws-cloudtrail/)
 - [AWS Config](https://tutorialsdojo.com/aws-config/)
 - [AWS Health](https://tutorialsdojo.com/aws-health/)
