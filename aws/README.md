@@ -19,7 +19,7 @@ Our **AWS cheat sheets** were created to give you a bird’s eye view of the imp
 
 - [Amazon Elastic Compute Cloud (EC2)](https://tutorialsdojo.com/amazon-elastic-compute-cloud-amazon-ec2/)
 - [Amazon Elastic Container Registry (ECR)](https://tutorialsdojo.com/amazon-elastic-container-registry-amazon-ecr/)
-- [Amazon Elastic Container Service (ECS)](https://tutorialsdojo.com/amazon-elastic-container-service-amazon-ecs/)
+- [Amazon Elastic Container Service (ECS)](./compute-services/elastic-container-service-amazon-ecs.md)
 - [Amazon Lightsail](https://tutorialsdojo.com/amazon-lightsail/)
 - [AWS Batch](https://tutorialsdojo.com/aws-batch/)
 - [AWS Elastic Beanstalk](https://tutorialsdojo.com/aws-elastic-beanstalk/)
@@ -79,9 +79,9 @@ Our **AWS cheat sheets** were created to give you a bird’s eye view of the imp
 
 - [Amazon API Gateway](https://tutorialsdojo.com/amazon-api-gateway/)
 - [Amazon CloudFront](./networking-and-content-delivery/cloudfront.md)
-- [Amazon Route 53](https://tutorialsdojo.com/amazon-route-53/)
+- [Amazon Route 53](./networking-and-content-delivery/amazon-route-53.md)
 - [Amazon VPC](./networking-and-content-delivery/vpc.md)
-- [AWS Direct Connect](https://tutorialsdojo.com/aws-direct-connect/)
+- [AWS Direct Connect](./networking-and-content-delivery/direct-connect.md)
 - [AWS Elastic Load Balancing (ELB)](https://tutorialsdojo.com/aws-elastic-load-balancing-elb/)
 - [AWS Global Accelerator](https://tutorialsdojo.com/aws-global-accelerator/)
 - [AWS Transit Gateway](https://tutorialsdojo.com/aws-transit-gateway/)
@@ -148,7 +148,7 @@ Our **AWS cheat sheets** were created to give you a bird’s eye view of the imp
 - [Amazon Elasticsearch (ES)](https://tutorialsdojo.com/amazon-elasticsearch-amazon-es/)
 - [Amazon EMR](https://tutorialsdojo.com/amazon-emr/)
 - [Amazon Kinesis](./analytics-services/amazon-kinesis.md)
-- [Amazon QuickSight](https://tutorialsdojo.com/amazon-quicksight/)
+- [Amazon QuickSight](./analytics-services/amazon-quicksight.md)
 - [Amazon Redshift](https://tutorialsdojo.com/amazon-redshift/)
 - [AWS Data Pipeline](https://tutorialsdojo.com/aws-data-pipeline/)
 

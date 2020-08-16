@@ -26,7 +26,7 @@
 
 **Introduction to AWS Lambda & Serverless Applications**
 
-
+https://youtu.be/EBSdyoO3goc
 
 ### **Lambda Functions**
 
@@ -56,13 +56,11 @@
 
 In AWS Lambda, you can set up your function to establish a connection to your virtual private cloud (VPC). With this connection, your function can access the private resources of your VPC during execution like EC2, RDS and many others.
 
-
-
 By default, AWS executes your Lambda function code securely within a VPC. Alternatively, you can enable your Lambda function to access resources inside your private VPC by providing additional VPC-specific configuration information such as VPC subnet IDs and security group IDs. It uses this information to set up elastic network interfaces which enable your Lambda function to connect securely to other resources within your VPC.
 
 ![img](./img/2019-04-03_03-53-45-3550f2ecbfad29ea60f49fd5ea8d2809.png)
 
-### 
+ 
 
 ### **Lambda@Edge**
 
@@ -99,7 +97,6 @@ By default, AWS executes your Lambda function code securely within a VPC. Altern
 **Additional AWS Lambda-related Cheat Sheets:**
 
 - [EC2 Container Service (ECS) vs Lambda](./comparison-of-aws-services/ec2-container-service-ecs-vs-lambda.md)
-- 
 - [AWS Lambda Integration with Amazon DynamoDB Streams](https://tutorialsdojo.com/aws-lambda-integration-with-amazon-dynamodb-streams/)
 
  
@@ -109,3 +106,9 @@ By default, AWS executes your Lambda function code securely within a VPC. Altern
 https://docs.aws.amazon.com/lambda/latest/dg/welcome.html
 
 https://docs.aws.amazon.com/lambda/latest/dg/lambda-invocation.html 
+
+Sources:
+ https://docs.aws.amazon.com/lambda/latest/dg
+ https://aws.amazon.com/lambda/features/
+ https://aws.amazon.com/lambda/pricing/
+ https://aws.amazon.com/lambda/faqs/

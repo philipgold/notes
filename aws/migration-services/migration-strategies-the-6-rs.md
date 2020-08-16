@@ -42,3 +42,4 @@ Sources:
  https://aws.amazon.com/cloud-migration/
  https://aws.amazon.com/blogs/enterprise-strategy/6-strategies-for-migrating-applications-to-the-cloud/
  https://d1.awsstatic.com/whitepapers/Migration/aws-migration-whitepaper.pdf
+
