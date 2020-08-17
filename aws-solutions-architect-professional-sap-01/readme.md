@@ -41,3 +41,7 @@ Section 18: Congratulations - 5m
 AWS Well-Architected Framework
 
 https://d1.awsstatic.com/whitepapers/architecture/AWS_Well-Architected_Framework.pdf
+
+
+
+https://portal.tutorialsdojo.com/courses/aws-certified-solutions-architect-professional-practice-exams/lessons/practice-exams-review-mode-5/quizzes/aws-certified-solutions-architect-professional-practice-exam-review-mode-set-1/

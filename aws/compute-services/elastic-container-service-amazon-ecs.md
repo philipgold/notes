@@ -147,7 +147,8 @@
  
 
 Sources:
- https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html
- https://aws.amazon.com/ecs/features/
- https://aws.amazon.com/ecs/pricing/
- https://aws.amazon.com/ecs/faqs/
+
+* https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html
+* https://aws.amazon.com/ecs/features/
+* https://aws.amazon.com/ecs/pricing/
+* https://aws.amazon.com/ecs/faqs/

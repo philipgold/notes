@@ -90,7 +90,7 @@ Our **AWS cheat sheets** were created to give you a bird’s eye view of the imp
 
 - [AWS Global Accelerator vs Amazon CloudFront](https://tutorialsdojo.com/aws-global-accelerator-vs-amazon-cloudfront/)
 - [How to Invalidate API Gateway Cache](https://tutorialsdojo.com/how-to-invalidate-api-gateway-cache/)
-- [Increasing MTU for Your EC2 Instance](https://tutorialsdojo.com/increasing-mtu-for-your-ec2-instance/)
+- [Increasing the ng MTU for Your EC2 Instance](https://tutorialsdojo.com/increasing-mtu-for-your-ec2-instance/)
 - [VPC Peering](./networking-and-content-delivery/vpc-peering.md)
 - [Longest Prefix Match: Understanding Advanced Concepts in VPC Peering](https://tutorialsdojo.com/longest-prefix-match-understanding-advanced-concepts-in-vpc-peering/)
 - [Resolve Route 53 Private Hosted Zones from an On-premises Network](https://tutorialsdojo.com/resolve-route-53-private-hosted-zones-from-an-on-premises-network/)
@@ -217,6 +217,6 @@ Our **AWS cheat sheets** were created to give you a bird’s eye view of the imp
 - [S3 Standard vs S3 Standard-IA vs S3OneZone-IA](https://tutorialsdojo.com/s3-standard-vs-s3-standard-ia-vs-s3-one-zone-ia/)
 - [S3 Transfer Acceleration vs Direct Connect vs VPN vs Snowball vs Snowmobile](https://tutorialsdojo.com/s3-transfer-acceleration-vs-direct-connect-vs-vpn-vs-snowball-vs-snowmobile/)
 - [Security Group vs NACL](https://tutorialsdojo.com/security-group-vs-nacl/)
-- [Service Control Policies vs IAM Policies](https://tutorialsdojo.com/service-control-policies-scp-vs-iam-policies/)
+- [Service Control Policies vs IAM Policies](./comparison-of-aws-services/service-control-policies-scp-vs-iam-policies.md)
 - [SNI Custom SSL vs Dedicated IP Custom SSL](./comparison-of-aws-services/sni-custom-ssl-vs-dedicated-ip-custom-ssl.md)
 - [Step Scaling vs Simple Scaling Policies in Amazon EC2](https://tutorialsdojo.com/step-scaling-vs-simple-scaling-policies-in-amazon-ec2/)
