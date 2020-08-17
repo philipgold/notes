@@ -1,4 +1,4 @@
-# Analytics - EMR Performance Tuning & Testing
+# EMR Performance Tuning & Testing
 
 # EMR Performance Tuning
 

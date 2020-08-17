@@ -145,16 +145,17 @@ Our **AWS cheat sheets** were created to give you a bird’s eye view of the imp
 
 - [Amazon Athena](https://tutorialsdojo.com/amazon-athena/)
 - [Amazon CloudSearch](./analytics-services/cloudsearch.md)
-- [Amazon Elasticsearch (ES)](https://tutorialsdojo.com/amazon-elasticsearch-amazon-es/)
-- [Amazon EMR](https://tutorialsdojo.com/amazon-emr/)
+- [Amazon EMR](./analytics-services/emr.md)
+- [EMR Performance Tuning & Testing](./analytics-services/emr-performance-tuning-testing.md)
 - [Amazon Kinesis](./analytics-services/amazon-kinesis.md)
 - [Amazon QuickSight](./analytics-services/amazon-quicksight.md)
-- [Amazon Redshift](https://tutorialsdojo.com/amazon-redshift/)
+- [Amazon Redshift](./analytics-services/redshift.md)
 - [AWS Data Pipeline](https://tutorialsdojo.com/aws-data-pipeline/)
 
 **Other Analytics-related Notes:**
 
 - [Kinesis Scaling Resharding And Parallel Processing](./analytics-services/kinesis-scaling-resharding-and-parallel-processing.md/)
+- [Amazon Elasticsearch (ES)](https://tutorialsdojo.com/amazon-elasticsearch-amazon-es/)
 
 ### [**AWS Billing and Cost Management**](https://tutorialsdojo.com/aws-billing-and-cost-management/)
 
