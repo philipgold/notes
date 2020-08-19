@@ -6,7 +6,7 @@
 
 **References:**
 
-https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/RedisAOF.html
- https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/Replication.Redis.Groups.html
- https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/Replication.Redis-RedisCluster.html
- https://redis.io/topics/persistence
+* https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/RedisAOF.html
+* https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/Replication.Redis.Groups.html
+* https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/Replication.Redis-RedisCluster.html
+* https://redis.io/topics/persistence

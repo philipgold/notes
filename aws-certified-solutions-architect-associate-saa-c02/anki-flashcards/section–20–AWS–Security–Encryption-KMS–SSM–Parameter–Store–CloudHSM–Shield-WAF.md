@@ -120,7 +120,7 @@
   - Complete access to the key to the root user = entire AWS account
   - Gives access to the IAM policies to the KMS key
 - **Custom KMS Key Policy:**
-- - Define users, roles that can access the KMS key
+  - Define users, roles that can access the KMS key
   - Define who can administer the key
   - Useful for cross-account access of your KMS key
 

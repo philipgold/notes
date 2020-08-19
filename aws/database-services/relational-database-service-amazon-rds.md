@@ -10,7 +10,7 @@
 - Each DB instance runs a **DB engine**.
 - You can select the computation and memory capacity of a DB instance, determined by its **DB instance class**. If your needs change over time, you can change DB instances.
 - Each DB instance has minimum and maximum storage requirements depending on the storage type and the database engine it supports.
-- You can run your DB instance in several AZs, an option called a **Multi-AZ deployment**. Amazon automatically provisions and maintains a secondary standby DB  instance in a different AZ. Your primary DB instance is synchronously  replicated across AZs to the secondary instance to provide data  redundancy, failover support, eliminate I/O freezes, and minimize  latency spikes during system backups.
+- You can run your DB instance in several AZs, an option called a **Multi-AZ deployment**. Amazon automatically provisions and maintains a secondary standby DB  instance in a different AZ. Your primary DB instance is **synchronously** replicated across AZs to the secondary instance to provide data redundancy, failover support, eliminate I/O freezes, and minimize  latency spikes during system backups.
 
  
 

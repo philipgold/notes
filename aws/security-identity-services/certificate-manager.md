@@ -15,6 +15,9 @@
 - ACM Certificate are X.509 version 3 certificates. Each is valid for **13 months**.
 - When you request an ACM certificate, you must validate that you own or  control all of the domains that you specify in your request.
 - **Each ACM Certificate must include at least one fully qualified domain name (FQDN)**. You can add additional names if you want to.
+- You can use the same **SSL certificate from ACM in more than one AWS Region** but it depends on whether you’re using Elastic Load Balancing or  Amazon CloudFront.
+  - To use a certificate with Elastic Load Balancing for  the same site (the same fully qualified domain name, or FQDN, or set of  FQDNs) in a different Region, you must request a new certificate for each Region in which you plan to use it. 
+  - To use an ACM certificate with Amazon CloudFront, you must request the certificate in the US East (N.  Virginia) region. ACM certificates in this region that are associated  with a CloudFront distribution are distributed to all the geographic  locations configured for that distribution.
 - You can create an ACM Certificate containing a wildcard name  (*.example.com) that can protect several sites in the same domain  (subdomains).
 - You cannot download the private key for an ACM Certificate.
 - The first time you request or import a certificate in an AWS region, ACM  creates an AWS-managed customer master key (CMK) in AWS KMS with the  alias aws/acm. This CMK is unique in each AWS account and each AWS  region. ACM uses this CMK to encrypt the certificate’s private key.
