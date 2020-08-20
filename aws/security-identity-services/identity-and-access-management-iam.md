@@ -50,18 +50,18 @@
 
       - *Permissions policies* define the permissions for the object to which they’re attached. These include identity-based policies, resource-based policies, and ACLs.
 - *Permissions boundary* is an advanced feature that allows you to use policies to limit the maximum permissions that a principal can have.
-      
+  
 - To provide your users with permissions to access the AWS resources in their own account, you need **identity-based policies**.
-    
+  
 - **Resource-based policies** are for granting cross-account access.
-    
+  
 - Evaluation logic rules for policies:
-    
+  
       - By default, **all requests are denied**.
   - An *explicit allow* in a permissions policy overrides this default.
       - A *permissions boundary* overrides the allow. If there is a permissions boundary that applies, that boundary must allow the request. Otherwise, it is implicitly denied.
   - An explicit deny in any policy overrides any allows.
-    
+  
 - #### **Actions or Operations**
   
   - Operations are defined by a service, and include things that you can do to a resource, such as viewing, creating, editing, and deleting that resource.
@@ -208,4 +208,4 @@ TBD
 
 **AWS IAM-related Cheat Sheets:**
 
-- [Service Control Policies (SCP) vs IAM Policies](https://tutorialsdojo.com/service-control-policies-scp-vs-iam-policies/)
+- [Service Control Policies (SCP) vs IAM Policies](../comparison-of-aws-services/service-control-policies-scp-vs-iam-policies.md)

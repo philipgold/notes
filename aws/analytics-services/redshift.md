@@ -61,7 +61,12 @@
 
 - If you store a copy of your snapshots in another AWS Region, you can restore your cluster from recent data if anything affects the primary AWS Region. You can configure your cluster to copy snapshots to only one destination AWS Region at a time.
 
-  
+
+
+
+# Workload management
+
+* Amazon Redshift workload management (WLM) **enables users to flexibly manage priorities** within workloads so that short, fast-running queries won't get stuck in queues behind long-running queries.
 
 ## Monitoring
 

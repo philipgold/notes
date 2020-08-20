@@ -34,12 +34,12 @@
 
   - AWS Storage Gateway customers using the Volume Gateway configuration for block storage can detach and attach volumes, from and to a Volume  Gateway. You can use this feature to migrate volumes between gateways to refresh underlying server hardware, switch between virtual machine  types, and move volumes to better host platforms or newer Amazon EC2  instances.
 
-  - **Tape Gateway** – archive backup data in Amazon Glacier.
+- **Tape Gateway** – archive backup data in Amazon Glacier.
 
-    - Has a virtual tape library (VTL) interface to store data on virtual tape cartridges that you create.
-    - Deploy your gateway on an EC2 instance to provision iSCSI storage volumes in AWS.
-    - The AWS Storage Gateway service integrates Tape Gateway with Amazon S3  Glacier Deep Archive storage class, allowing you to store virtual tapes  in the lowest-cost Amazon S3 storage class.
-    - Tape Gateway also has the capability to move your virtual tapes archived in  Amazon S3 Glacier to Amazon S3 Glacier Deep Archive storage class,  enabling you to further reduce the monthly cost to store long-term data  in the cloud by up to 75%.
+  - Has a virtual tape library (VTL) interface to store data on virtual tape cartridges that you create.
+  - Deploy your gateway on an EC2 instance to provision iSCSI storage volumes in AWS.
+  - The AWS Storage Gateway service integrates Tape Gateway with Amazon S3  Glacier Deep Archive storage class, allowing you to store virtual tapes  in the lowest-cost Amazon S3 storage class.
+  - Tape Gateway also has the capability to move your virtual tapes archived in  Amazon S3 Glacier to Amazon S3 Glacier Deep Archive storage class,  enabling you to further reduce the monthly cost to store long-term data  in the cloud by up to 75%.
 
 
 
@@ -113,9 +113,9 @@ https://youtu.be/o6TpM-FWs38
 
 
 
-### Sources
+#### Sources
 
- https://docs.aws.amazon.com/storagegateway/latest/userguide/
- https://aws.amazon.com/storagegateway/features/
- https://aws.amazon.com/storagegateway/pricing/
- https://aws.amazon.com/storagegateway/faqs/
+* https://docs.aws.amazon.com/storagegateway/latest/userguide/
+* https://aws.amazon.com/storagegateway/features/
+* https://aws.amazon.com/storagegateway/pricing/
+* https://aws.amazon.com/storagegateway/faqs/

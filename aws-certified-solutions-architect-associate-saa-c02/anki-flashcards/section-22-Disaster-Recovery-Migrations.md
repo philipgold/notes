@@ -10,7 +10,7 @@
   - AWS Cloud Region A => AWS Cloud Region B
 - Need to define two terms:
   - RPO: Recovery Point Objective
-  - RTO: Recover y Time Objective
+  - RTO: Recovery Time Objective
 
 [#aws-saa]() [#DR]()
 
@@ -135,6 +135,7 @@
 ## On-Premise strategy with AWS
 
 * Ability to download Amazon Linux 2 AMI as a VM (.iso format)
+  
   * VMWare, KVM,VirtualBox (Oracle VM), Microsoft Hyper-V
 * VM Import / Export
   * Migrate existing applications into EC2
