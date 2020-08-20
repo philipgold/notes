@@ -41,10 +41,10 @@ Our **AWS cheat sheets** were created to give you a bird’s eye view of the imp
 - [Amazon EFS](./storage-services/efs.md)
 - [Amazon FSx](https://tutorialsdojo.com/amazon-fsx/)
 - [Amazon S3](https://tutorialsdojo.com/amazon-s3/)
-- [Amazon S3 Glacier](https://tutorialsdojo.com/amazon-glacier/)
+- [Amazon S3 Glacier](./storage-services/glacier.md)
 - [AWS Snowball Edge](https://tutorialsdojo.com/aws-snowball-edge/)
 - [AWS Snowmobile](https://tutorialsdojo.com/aws-snowmobile/)
-- [AWS Storage Gateway](https://tutorialsdojo.com/aws-storage-gateway/)
+- [AWS Storage Gateway](./storage-services/storage-gateway.md)
 
 **Other Storage-related Notes:**
 
@@ -198,7 +198,7 @@ Our **AWS cheat sheets** were created to give you a bird’s eye view of the imp
 - [Amazon Cognito User Pools vs Identity Pools](https://tutorialsdojo.com/amazon-cognito-user-pools-and-identity-pools-explained/)
 - [Amazon RDS vs DynamoDB](./comparison-of-aws-services/rds-vs-dynamodb.md)
 - [Amazon S3 vs EBS vs EFS](./comparison-of-aws-services/s3-vs-ebs-vs-efs.md)
-- [Amazon S3 vs Glacier](https://tutorialsdojo.com/amazon-s3-vs-glacier/)
+- [Amazon S3 vs Glacier](./comparison-of-aws-services/s3-vs-glacier.md)
 - [Amazon SWF vs AWS Step Function vs Amazon SQS](https://tutorialsdojo.com/amazon-simple-workflow-swf-vs-aws-step-functions-vs-amazon-sqs/)
 - [Application Load Balancer vs Network Load Balancer vs Classic Load Balancer](https://tutorialsdojo.com/application-load-balancer-vs-network-load-balancer-vs-classic-load-balancer/)
 - [AWS CloudTrail vs Amazon CloudWatch](./comparison-of-aws-services/cloudtrail-vs-amazon-cloudwatch.md)
