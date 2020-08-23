@@ -25,7 +25,7 @@ Our **AWS cheat sheets** were created to give you a bird’s eye view of the imp
 - [AWS Elastic Beanstalk](https://tutorialsdojo.com/aws-elastic-beanstalk/)
 - [AWS Lambda](https://tutorialsdojo.com/aws-lambda/)
 - [AWS ParallelCluster](https://tutorialsdojo.com/aws-parallelcluster/)
-- [AWS Serverless Application Model (SAM)](https://tutorialsdojo.com/aws-serverless-application-model-sam/)
+- [AWS Serverless Application Model (SAM)](./compute-services/serverless-application-model-sam.md)
 
 **Other Compute-related Notes:**
 
