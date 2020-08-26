@@ -24,7 +24,7 @@
 
 - **Volume Gateway** – provides cloud-backed storage volumes that you can mount as iSCSI devices from your on-premises application servers.
 
-  - **Cached volumes** – you store your data in S3 and retain a copy of frequently accessed  data subsets locally. Cached volumes can range from 1 GiB to 32 TiB in  size and must be rounded to the nearest GiB. Each gateway configured for cached volumes can support up to 32 volumes.
+  - **Cached volumes** – you store your data in S3 and retain a copy of frequently accessed  data subsets locally. Cached volumes can range from 1 GiB to 32 TiB in size and must be rounded to the nearest GiB. Each gateway configured for cached volumes can support up to 32 volumes.
 
      ![AWS Storage Gateway Training](../img/AWSStoragegateway2.png)
 
@@ -50,8 +50,8 @@
 - As a hardware appliance on premises
 - As an AMI in an EC2 instance
 
-- Storage Gateway stores volume, snapshot, tape, and file data in the AWS Region  in which your gateway is activated. File data is stored in the AWS  Region where your S3 bucket is located.
-- The local gateway appliance maintains a cache of recently written or read  data so your applications can have low-latency access to data that is  stored durably in AWS. The gateways use a **read-through and write-back** cache.
+- Storage Gateway stores volume, snapshot, tape, and file data in the AWS Region in which your gateway is activated. File data is stored in the AWS  Region where your S3 bucket is located.
+- The local gateway appliance maintains a cache of recently written or read data so your applications can have low-latency access to data that is  stored durably in AWS. The gateways use a **read-through and write-back** cache.
 
 ### File Gateway File Share
 
@@ -63,7 +63,7 @@
 ### Security
 
 - You can use AWS KMS to encrypt data written to a virtual tape. 
-- Storage Gateway uses Challenge-Handshake Authentication Protocol (CHAP) to  authenticate iSCSI and initiator connections. CHAP provides protection  against playback attacks by requiring authentication to access storage  volume targets.
+- Storage Gateway uses Challenge-Handshake Authentication Protocol (CHAP) to authenticate iSCSI and initiator connections. CHAP provides protection against playback attacks by requiring authentication to access storage  volume targets.
 - Authentication and access control with IAM.
 
 ### Compliance

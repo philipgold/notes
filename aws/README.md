@@ -204,7 +204,7 @@ Our **AWS cheat sheets** were created to give you a bird’s eye view of the imp
 - [AWS CloudTrail vs Amazon CloudWatch](./comparison-of-aws-services/cloudtrail-vs-amazon-cloudwatch.md)
 - [AWS Global Accelerator vs Amazon CloudFront](https://tutorialsdojo.com/aws-global-accelerator-vs-amazon-cloudfront/)
 - [AWS Secrets Manager vs Systems Manager Parameter Store](https://tutorialsdojo.com/aws-secrets-manager-vs-systems-manager-parameter-store/)
-- [Backup and Restore vs Pilot Light vs Warm Standby vs Multi – site](https://tutorialsdojo.com/backup-and-restore-vs-pilot-light-vs-warm-standby-vs-multi-site/)
+- [Disaster Recovery: Backup and Restore vs Pilot Light vs Warm Standby vs Multi – site](./comparison-of-aws-services/backup-and-restore-vs-pilot-light-vs-warm-standby-vs-multi-site.md)
 - [CloudWatch Agent vs SSM Agent vs Custom Daemon Scripts](./comparison-of-aws-services/cloudwatch-agent-vs-ssm-agent-vs-custom-daemon-scripts.md)
 - [EBS-SSD vs HDD](https://tutorialsdojo.com/ebs-ssd-vs-hdd/)
 - [EC2 Container Services ECS vs Lambda](https://tutorialsdojo.com/ec2-container-service-ecs-vs-lambda/)

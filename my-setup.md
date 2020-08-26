@@ -10,6 +10,8 @@ brew install openjdk
 
 brew install typora
 
+brew install pandoc
+
 brew cask install pycharm-ce
 
 brew cask install visual-studio-code

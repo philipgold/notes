@@ -124,7 +124,8 @@ https://youtu.be/d6SJPMdBShI
  
 
 Sources:
- https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/
- https://aws.amazon.com/cloudformation/features/
- https://aws.amazon.com/cloudformation/pricing/
- https://aws.amazon.com/cloudformation/faqs/
+
+* https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/
+* https://aws.amazon.com/cloudformation/features/
+* https://aws.amazon.com/cloudformation/pricing/
+* https://aws.amazon.com/cloudformation/faqs/

@@ -16,7 +16,7 @@
 
 ## RPO and RTO
 
-![image-20200728162834014](./images/image-20200728162834014.png)
+![image-20200728162834014](/Users/pg/sourcecode/myprojects/notes/aws/img/image-20200728162834014.png)
 
 [#aws-saa]() [#DR]()
 
@@ -30,7 +30,7 @@
 
 - Hot Site / Multi Site Approach
 
-  ![image-20200728162927356](./images/image-20200728162927356.png)
+  ![image-20200728162927356](/Users/pg/sourcecode/myprojects/notes/aws/img/image-20200728162927356.png)
 
   
 
@@ -38,7 +38,7 @@
 
 ## Backup and Restore (High RPO)
 
-![image-20200728163015246](./images/image-20200728163015246.png)
+![image-20200728163015246](/Users/pg/sourcecode/myprojects/notes/aws/img/image-20200728163015246.png)
 
 [#aws-saa]() [#DR]()
 
@@ -52,7 +52,7 @@
 
 - Faster than Backup and Restore as critical systems are already up
 
-  ![image-20200728163102366](./images/image-20200728163102366.png)
+  ![image-20200728163102366](/Users/pg/sourcecode/myprojects/notes/aws/img/image-20200728163102366.png)
 
 [#aws-saa]() [#DR]()
 
@@ -61,7 +61,7 @@
 * Full system is up and running, but at minimum size
 * Upon disaster, we can scale to production load
 
-![image-20200728163151254](./images/image-20200728163151254.png)
+![image-20200728163151254](/Users/pg/sourcecode/myprojects/notes/aws/img/image-20200728163151254.png)
 
 [#aws-saa]() [#DR]()
 
@@ -71,7 +71,7 @@
 
 * Full Production Scale is running AWS and On Premise
 
-  ![image-20200728163237341](./images/image-20200728163237341.png)
+  ![image-20200728163237341](/Users/pg/sourcecode/myprojects/notes/aws/img/image-20200728163237341.png)
 
 [#aws-saa]() [#DR]()
 

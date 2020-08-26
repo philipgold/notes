@@ -251,7 +251,7 @@
 | **VPN connectivity option**        | **Description**                                              |
 | ---------------------------------- | ------------------------------------------------------------ |
 | AWS managed VPN                    | You can create an IPsec VPN connection between your VPC and your remote network. On the AWS side of the VPN connection, a *virtual private gateway* provides two VPN endpoints (tunnels) for automatic failover. You configure your *customer gateway* on the remote side of the VPN connection. |
-| AWS VPN CloudHub                   | If you have more than one remote network, you can create multiple AWS  managed VPN connections via your virtual private gateway to enable  communication between these networks. |
+| AWS VPN CloudHub                   | If you have more than one remote network, you can create multiple AWS managed VPN connections via your virtual private gateway to enable communication between these networks. |
 | Third party software VPN appliance | You can create a VPN connection to your remote network by using an Amazon  EC2 instance in your VPC that’s running a third party software VPN  appliance. AWS does not provide or maintain third party software VPN  appliances; however, you can choose from a range of products provided by partners and open source communities. |
 | AWS Direct Connect                 | You can also use AWS Direct Connect to create a dedicated private  connection from a remote network to your VPC. You can combine this  connection with an AWS managed VPN connection to create an  IPsec-encrypted connection. |
 
