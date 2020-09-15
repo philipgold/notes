@@ -311,7 +311,7 @@
 - You should round up to the nearest KB when estimating how many capacity units to provision.
 - There are additional charges for DAX, Global Tables, On-demand Backups (per  GB), Continuous backups and point-in-time recovery (per GB), Table  Restorations (per GB), and Streams (read request units).
 
- 
+   
 
 #### **AWS re:Invent – Amazon DynamoDB Deep Dive**
 

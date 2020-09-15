@@ -1,5 +1,9 @@
 
 
+an INCREDIBLE visual resource for aws services!!
+
+https://www.awsgeek.com/ 
+
 
 
 **Review Mode Set 2** Aug 19                             

@@ -42,7 +42,7 @@ Our **AWS cheat sheets** were created to give you a bird’s eye view of the imp
 - [Amazon FSx](https://tutorialsdojo.com/amazon-fsx/)
 - [Amazon S3](https://tutorialsdojo.com/amazon-s3/)
 - [Amazon S3 Glacier](./storage-services/glacier.md)
-- [AWS Snowball Edge](https://tutorialsdojo.com/aws-snowball-edge/)
+- [AWS Snowball Edge](./storage-services/snowball-edge.md)
 - [AWS Snowmobile](https://tutorialsdojo.com/aws-snowmobile/)
 - [AWS Storage Gateway](./storage-services/storage-gateway.md)
 
@@ -187,6 +187,7 @@ Our **AWS cheat sheets** were created to give you a bird’s eye view of the imp
 ### **[AWS Machine Learning And AI](https://tutorialsdojo.com/aws-cheat-sheets-aws-machine-learning-and-ai/)**
 
 - [Amazon Rekognition](./machine-learning-and-ai/rekognition.md)
+- [Amazon Mechanical Turk](./machine-learning-and-ai/mechanical-turk.md)
 
 ### [**Other AWS Services**](https://tutorialsdojo.com/aws-cheat-sheets-other-aws-services/)
 
@@ -200,7 +201,7 @@ Our **AWS cheat sheets** were created to give you a bird’s eye view of the imp
 - [Amazon S3 vs EBS vs EFS](./comparison-of-aws-services/s3-vs-ebs-vs-efs.md)
 - [Amazon S3 vs Glacier](./comparison-of-aws-services/s3-vs-glacier.md)
 - [Amazon SWF vs AWS Step Function vs Amazon SQS](https://tutorialsdojo.com/amazon-simple-workflow-swf-vs-aws-step-functions-vs-amazon-sqs/)
-- [Application Load Balancer vs Network Load Balancer vs Classic Load Balancer](https://tutorialsdojo.com/application-load-balancer-vs-network-load-balancer-vs-classic-load-balancer/)
+- [Application Load Balancer vs Network Load Balancer vs Classic Load Balancer](./comparison-of-aws-services/application-load-balancer-vs-network-load-balancer-vs-classic-load-balancer.md)
 - [AWS CloudTrail vs Amazon CloudWatch](./comparison-of-aws-services/cloudtrail-vs-amazon-cloudwatch.md)
 - [AWS Global Accelerator vs Amazon CloudFront](https://tutorialsdojo.com/aws-global-accelerator-vs-amazon-cloudfront/)
 - [AWS Secrets Manager vs Systems Manager Parameter Store](https://tutorialsdojo.com/aws-secrets-manager-vs-systems-manager-parameter-store/)

@@ -22,7 +22,7 @@ This document contains questions to ask customers about Elasticsearch
 
 * Do you have customer's data retention? 
 
-  * 
+  
 
 ## Architecture
 
@@ -35,7 +35,8 @@ This document contains questions to ask customers about Elasticsearch
 * Is it Schema Free or User-Defined Schemas? 
   * Where can we see the current schema? Explain the current schema.
 * Does using multiple Types in an index?
-* 
+
+
 
 ## Data Questions
 
@@ -52,6 +53,8 @@ This document contains questions to ask customers about Elasticsearch
   * If the indices are created on daily basis. How long should keep indices in ES? *(7 days or more)*
 
 * Do there Hot/Warm architecture of nodes?
+
+
 
 ## Cluster Questions
 
@@ -70,8 +73,9 @@ This document contains questions to ask customers about Elasticsearch
 * Monitoring Tools
 * Logging
 * Should be supported by ElasticSearch service compression?
-  * If so, is HTTP request compression supported by the endpoint provided? 
-
+  
+* If so, is HTTP request compression supported by the endpoint provided? 
+  
 * Can it be supported by  configuration change? inline script Groovy supporting,
 
   *E.g. As we currently use Groovy scripts extensively to  update ElasticSearch documents*
@@ -88,7 +92,6 @@ This document contains questions to ask customers about Elasticsearch
 
   *Perhaps this was done on purpose. Or we can apply based our recommendations.*
 
-* 
 
 
 

@@ -115,12 +115,6 @@ https://aws.amazon.com/snowball/faqs/
 
 **Check out this AWS Snowball Cheat Sheet:**
 
-https://tutorialsdojo.com/aws-snowball/
+[./storage-services/snowball.md](../storage-services/snowball.md)
 
  
-
- 
-
-**Comparison of AWS Services Cheat Sheets:**
-
-https://tutorialsdojo.com/comparison-of-aws-services/

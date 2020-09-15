@@ -1,7 +1,7 @@
 # AWS OpsWorks
 
 - A configuration management service that helps you configure and operate applications in a cloud enterprise by using **Puppet** or **Chef**.
-- AWS OpsWorks Stacks and AWS OpsWorks for Chef Automate (1 and 2) let you  use Chef cookbooks and solutions for configuration management, while  OpsWorks for Puppet Enterprise lets you configure a Puppet Enterprise  master server in AWS.
+- AWS OpsWorks Stacks and AWS OpsWorks for Chef Automate (1 and 2) let you use Chef cookbooks and solutions for configuration management, while OpsWorks for Puppet Enterprise lets you configure a Puppet Enterprise  master server in AWS.
 - Limits
   - Configuration management servers per region: 5
   - Automated backups per configuration management server: 30
@@ -48,8 +48,8 @@
 ### **OpsWorks Stacks**
 
 - Provides a simple and flexible way to create and manage stacks and applications.
-- **Stacks** are group of AWS resources that constitute an full-stack application.  By default, you can create up to 40 Stacks, and each stack can hold up  to 40 layers, 40 instances, and 40 apps.
-- You can create stacks that help you manage cloud resources in specialized groups called **layers**. A layer represents a set of EC2 instances that serve a particular  purpose, such as serving applications or hosting a database server.  Layers depend on Chef recipes to handle tasks such as installing packages on instances, deploying apps, and running scripts.
+- **Stacks** are group of AWS resources that constitute an full-stack application. By default, you can create up to 40 Stacks, and each stack can hold up to 40 layers, 40 instances, and 40 apps.
+- You can create stacks that help you manage cloud resources in specialized groups called **layers**. A layer represents a set of EC2 instances that serve a particular  purpose, such as serving applications or hosting a database server. Layers depend on Chef recipes to handle tasks such as installing packages on instances, deploying apps, and running scripts.
 
 ![AWS Training AWS OpsWorks 2](../img/AWS-Training-AWS-OpsWorks-2.png)
 
