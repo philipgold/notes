@@ -1,4 +1,4 @@
-## Links to All AWS Cheat Sheets
+## AWS Cheat Sheets
 
 For your convenience, this page serves as a directory of all AWS cheat sheets that we have published so far.
 
@@ -108,6 +108,7 @@ Our **AWS cheat sheets** were created to give you a bird’s eye view of the imp
 - [AWS Fargate](https://tutorialsdojo.com/aws-fargate/)
 - [AWS Firewall Manager](https://tutorialsdojo.com/aws-firewall-manager/)
 - [AWS Identity & Access Management (IAM)](./security-identity-services/identity-and-access-management-iam.md)
+- [AWS IAM Role](../security-identity-services/iam-role.md)
 - [AWS Key Management Service](https://tutorialsdojo.com/aws-key-management-service-aws-kms/)
 - [AWS Organizations](./security-identity-services/organizations.md)
 - [AWS Resource Access Manager (RAM)](https://tutorialsdojo.com/aws-resource-access-manager/)
@@ -126,6 +127,9 @@ Our **AWS cheat sheets** were created to give you a bird’s eye view of the imp
 - [Using the Secure String Parameter in Systems Manager Parameter Store](https://tutorialsdojo.com/using-the-secure-string-parameter-in-systems-manager-parameter-store/)
 - [Customer Master Keys (CMKs) Policy Management in AWS KMS](https://tutorialsdojo.com/customer-master-keys-cmks-policy-management-in-aws-kms/)
 - [Working with Customer Master Keys (CMKs) Using the AWS KMS API](https://tutorialsdojo.com/working-with-customer-master-keys-cmks-using-the-aws-kms-api/)
+- [IAM Role – Identity Providers and Federation – Certification](./security-identity-services/iam-role-identity-providers-federation.md)
+
+
 
 ### **[AWS Management Tools](https://tutorialsdojo.com/aws-cheat-sheets-management-tools/)**
 

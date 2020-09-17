@@ -5,6 +5,8 @@
 - AWS account **root user** is a single sign-in identity that has complete access to all AWS services and resources in the account.
 
 
+
+
 ## Features
 
 - You can grant other people permission to administer and use resources in your AWS account without having to share your password or access key.
@@ -122,14 +124,20 @@
 | Other people in your group need to work in your AWS account, and your group in using no other identity mechanism. | You're creating an app that runs on a mobile phone and that makes request to AWS. |
 | You want to use command-line interface to work with AWS.     | Users in your company are authenticated in your corporate network and want to be able to use AWS without having no sign in again (federate into AWS) |
 
-
+Read also [AWS IAM Role](../security-identity-services/iam-role.md)
 
 ## Policies
 
-- Most permission policies are JSON policy documents.
+- Anatomy of a policy: JSON doc with Effect, Action, Resource, Conditions, Policy Variables
+
+  ![image-20200915130733584](../img/aws-iam-policy-anatomy.png)
+
 - The IAM console includes *policy summary tables* that describe the access level, resources, and conditions that are allowed or denied for each service in a policy.
+
 - The *policy summary table* includes a list of services. Choose a service there to see the *service summary*.
+
 - This *summary table* includes a list of the actions and associated permissions for the chosen service. You can choose an action from that table to view the action *summary*.
+
 - To assign permissions to federated users, you can create an entity referred to as a **role** and define permissions for the **role**.
 
 ### Identity-Based Policies
@@ -154,24 +162,23 @@
 
 
 
-## Assume Role Options
+### STS Important APIs 
 
-- **AssumeRole** – Returns a set of temporary security credentials that you can use to access AWS resources that you might not normally have access to. These temporary credentials consist of an access key ID, a secret access key, and a security token. Typically, you use *AssumeRole* within your account or for cross-account access. 
+- **AssumeRole**: access a role within your account or cross-account
 
-  - You can include multi-factor authentication (MFA) information when you call *AssumeRole*. This is useful for cross-account scenarios to ensure that the user that assumes the role has been authenticated with an AWS MFA device.
+- **AssumeRoleWithSAML**: return credentials for users logged with SAML
 
-- **AssumeRoleWithSAML** – Returns a set of temporary security credentials for users who have been authenticated via a SAML authentication response. This allows you to link your enterprise identity store or directory to role-based AWS access without user-specific credentials or configuration.
+- **AssumeRoleWithWebIdentity**: return creds for users logged with an IdP 
 
-- **AssumeRoleWithWebIdentity** – Returns a set of temporary security credentials for users who have been authenticated in a mobile or web application with a web identity provider. Example providers include Amazon Cognito, Login with Amazon, Facebook, Google, or any OpenID Connect-compatible identity provider.
+  - Example providers include Amazon Cognito, Login with Amazon, Facebook, Google, or any OpenID Connect-compatible identity provider
 
-  
+  * ***AWS recommends using Cognito instead***
 
-## STS Get Tokens
+- **GetSessionToken**: for MFA, from a user or AWS account root user
 
-- **GetFederationToken** – Returns a set of temporary security credentials (consisting of an access key ID, a secret access key, and a security token) for a federated user. You must call the GetFederationToken operation using the long-term security credentials of an IAM user. A typical use is in *a proxy application* that gets temporary security credentials on behalf of distributed applications inside a corporate network.
-- **GetSessionToken** – Returns a set of temporary credentials for an AWS account or IAM user. The credentials consist of an access key ID, a secret access key, and a security token. You must call the GetSessionToken operation using the long-term security credentials of an IAM user. Typically, you use GetSessionToken if you want to use MFA to protect programmatic calls to specific AWS API operations.
+- **GetFederationToken**: obtain temporary creds for a federated user, usually a proxy app that will give the creds to a distributed app inside a corporate network
 
-
+*More in [AWS Security Token Service API Reference](https://docs.aws.amazon.com/STS/latest/APIReference/welcome.html)*
 
 ## Best Practices
 
