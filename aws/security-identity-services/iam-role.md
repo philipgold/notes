@@ -125,6 +125,15 @@
 7. Example Corp’s would request access to your Account using the ARN  (belonging to your AWS account) but with the External ID belonging to  Other AWS account as the request was made on its behalf
 8. As the External ID provided by Example Corp does not match the  condition defined in the Role trust policy, the authentication would  fail and hence denied access
 
+### STS Important APIs
+* **AssumeRole**: access a role within your account or cross-account
+* **AssumeRoleWithSAML**: return credentials for users logged with SAML
+* **AssumeRoleWithWebIdentity**: return creds for users logged with an IdP 
+  *  Example providers include Amazon Cognito, Login with Amazon, Facebook, Google, or any OpenID Connect-compatible identity provider
+  * **AWS recommends using Cognito instead**
+* **GetSessionToken**: for MFA, from a user or AWS account root user
+* **GetFederationToken**: obtain temporary creds for a federated user, usually a proxy app that will give the creds to a distributed app inside a corporate network
+
 ## Identity Providers and Federation
 
 Refer to about [IAM Role – Identity Providers and Federation](./iam-role-identity-providers-federation.md)
